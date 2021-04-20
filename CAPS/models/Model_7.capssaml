@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<components:SoftwareArchitecture xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:components="components">
+  <SAElements xsi:type="components:Component" name="Intellgent CCTV Camera">
+    <ports xsi:type="components:OutMessagePort"/>
+    <modes xsi:type="components:InitialMode" name="Normal Mode">
+      <behaviouralElements xsi:type="components:TimerFired" outgoing="//@SAElements.0/@modes.0/@behaviouralElements.4"/>
+      <behaviouralElements xsi:type="components:StartTimer" outgoing="//@SAElements.0/@modes.0/@behaviouralElements.5" incoming="//@SAElements.0/@modes.0/@behaviouralElements.4" delay="60000"/>
+      <behaviouralElements xsi:type="components:CCTVCcapture" outgoing="//@SAElements.0/@modes.0/@behaviouralElements.6" incoming="//@SAElements.0/@modes.0/@behaviouralElements.5"/>
+      <behaviouralElements xsi:type="components:UnicastSendMessage" incoming="//@SAElements.0/@modes.0/@behaviouralElements.6" data="CameraData" toMessagePorts="//@SAElements.0/@ports.0" dataRecipient="//@SAElements.0/@applicationData.0"/>
+      <behaviouralElements xsi:type="components:Link" source="//@SAElements.0/@modes.0/@behaviouralElements.0" target="//@SAElements.0/@modes.0/@behaviouralElements.1"/>
+      <behaviouralElements xsi:type="components:Link" source="//@SAElements.0/@modes.0/@behaviouralElements.1" target="//@SAElements.0/@modes.0/@behaviouralElements.2"/>
+      <behaviouralElements xsi:type="components:Link" source="//@SAElements.0/@modes.0/@behaviouralElements.2" target="//@SAElements.0/@modes.0/@behaviouralElements.3"/>
+      <entries name="Enter"/>
+      <exits name="Exit" targetMode="//@SAElements.0/@modes.1/@entries.0"/>
+    </modes>
+    <modes name="Critical Mode">
+      <behaviouralElements xsi:type="components:TimerFired" outgoing="//@SAElements.0/@modes.1/@behaviouralElements.4"/>
+      <behaviouralElements xsi:type="components:StartTimer" outgoing="//@SAElements.0/@modes.1/@behaviouralElements.5" incoming="//@SAElements.0/@modes.1/@behaviouralElements.4" delay="30000"/>
+      <behaviouralElements xsi:type="components:CCTVCcapture" outgoing="//@SAElements.0/@modes.1/@behaviouralElements.6" incoming="//@SAElements.0/@modes.1/@behaviouralElements.5"/>
+      <behaviouralElements xsi:type="components:UnicastSendMessage" incoming="//@SAElements.0/@modes.1/@behaviouralElements.6" data="CameraData" toMessagePorts="//@SAElements.0/@ports.0"/>
+      <behaviouralElements xsi:type="components:Link" source="//@SAElements.0/@modes.1/@behaviouralElements.0" target="//@SAElements.0/@modes.1/@behaviouralElements.1"/>
+      <behaviouralElements xsi:type="components:Link" source="//@SAElements.0/@modes.1/@behaviouralElements.1" target="//@SAElements.0/@modes.1/@behaviouralElements.2"/>
+      <behaviouralElements xsi:type="components:Link" source="//@SAElements.0/@modes.1/@behaviouralElements.2" target="//@SAElements.0/@modes.1/@behaviouralElements.3"/>
+      <entries name="Enter"/>
+      <exits name="Exit" targetMode="//@SAElements.0/@modes.0/@entries.0"/>
+    </modes>
+    <applicationData xsi:type="components:PrimitiveDataDeclaration" dataName="CCTVCamerData"/>
+  </SAElements>
+  <SAElements xsi:type="components:Component" name="Enter RFID">
+    <ports xsi:type="components:OutMessagePort"/>
+    <modes xsi:type="components:InitialMode" name="Normal Mode">
+      <behaviouralElements xsi:type="components:TimerFired" outgoing="//@SAElements.1/@modes.0/@behaviouralElements.3"/>
+      <behaviouralElements xsi:type="components:StartTimer" outgoing="//@SAElements.1/@modes.0/@behaviouralElements.5" incoming="//@SAElements.1/@modes.0/@behaviouralElements.3" delay="30000"/>
+      <behaviouralElements xsi:type="components:UnicastSendMessage" incoming="//@SAElements.1/@modes.0/@behaviouralElements.6" data="RfidData" toMessagePorts="//@SAElements.1/@ports.0" dataRecipient="//@SAElements.1/@applicationData.0"/>
+      <behaviouralElements xsi:type="components:Link" source="//@SAElements.1/@modes.0/@behaviouralElements.0" target="//@SAElements.1/@modes.0/@behaviouralElements.1"/>
+      <behaviouralElements xsi:type="components:ReadRfid" outgoing="//@SAElements.1/@modes.0/@behaviouralElements.6" incoming="//@SAElements.1/@modes.0/@behaviouralElements.5" dataDeclarationName="RfidData"/>
+      <behaviouralElements xsi:type="components:Link" source="//@SAElements.1/@modes.0/@behaviouralElements.1" target="//@SAElements.1/@modes.0/@behaviouralElements.4"/>
+      <behaviouralElements xsi:type="components:Link" source="//@SAElements.1/@modes.0/@behaviouralElements.4" target="//@SAElements.1/@modes.0/@behaviouralElements.2"/>
+      <entries name="EnterMode"/>
+      <exits name="ExitMode" targetMode="//@SAElements.1/@modes.1/@entries.0"/>
+    </modes>
+    <modes name="ExitMode">
+      <behaviouralElements xsi:type="components:TimerFired" outgoing="//@SAElements.1/@modes.1/@behaviouralElements.4"/>
+      <behaviouralElements xsi:type="components:StartTimer" outgoing="//@SAElements.1/@modes.1/@behaviouralElements.5" incoming="//@SAElements.1/@modes.1/@behaviouralElements.4" delay="10000"/>
+      <behaviouralElements xsi:type="components:UnicastSendMessage" incoming="//@SAElements.1/@modes.1/@behaviouralElements.6" data="RfidData" toMessagePorts="//@SAElements.1/@ports.0"/>
+      <behaviouralElements xsi:type="components:ReadRfid" outgoing="//@SAElements.1/@modes.1/@behaviouralElements.6" incoming="//@SAElements.1/@modes.1/@behaviouralElements.5" dataDeclarationName="RfidData"/>
+      <behaviouralElements xsi:type="components:Link" source="//@SAElements.1/@modes.1/@behaviouralElements.0" target="//@SAElements.1/@modes.1/@behaviouralElements.1"/>
+      <behaviouralElements xsi:type="components:Link" source="//@SAElements.1/@modes.1/@behaviouralElements.1" target="//@SAElements.1/@modes.1/@behaviouralElements.3"/>
+      <behaviouralElements xsi:type="components:Link" source="//@SAElements.1/@modes.1/@behaviouralElements.3" target="//@SAElements.1/@modes.1/@behaviouralElements.2"/>
+      <entries name="EnterMode"/>
+      <exits name="ExitMode" targetMode="//@SAElements.1/@modes.0/@entries.0"/>
+    </modes>
+    <applicationData xsi:type="components:PrimitiveDataDeclaration" dataName="RFIDEnterData"/>
+  </SAElements>
+  <SAElements xsi:type="components:Component" name="Uffizi Cloud">
+    <ports xsi:type="components:InMessagePort"/>
+    <ports xsi:type="components:InMessagePort"/>
+    <ports xsi:type="components:InMessagePort"/>
+    <ports xsi:type="components:InMessagePort"/>
+    <ports xsi:type="components:InMessagePort"/>
+    <modes xsi:type="components:InitialMode">
+      <behaviouralElements xsi:type="components:ReceiveMessage" outgoing="//@SAElements.2/@modes.0/@behaviouralElements.5" dataRecipientName="RFIDEnterData" fromMessagePorts="//@SAElements.2/@ports.2" dataRecipient="//@SAElements.1/@applicationData.0"/>
+      <behaviouralElements xsi:type="components:ReceiveMessage" outgoing="//@SAElements.2/@modes.0/@behaviouralElements.6" dataRecipientName="CamerData" fromMessagePorts="//@SAElements.2/@ports.1" dataRecipient="//@SAElements.0/@applicationData.0"/>
+      <behaviouralElements xsi:type="components:ReceiveMessage" outgoing="//@SAElements.2/@modes.0/@behaviouralElements.4" dataRecipientName="RFIDData" fromMessagePorts="//@SAElements.2/@ports.0"/>
+      <behaviouralElements xsi:type="components:CallSyncService" incoming="//@SAElements.2/@modes.0/@behaviouralElements.4 //@SAElements.2/@modes.0/@behaviouralElements.5 //@SAElements.2/@modes.0/@behaviouralElements.6 //@SAElements.2/@modes.0/@behaviouralElements.8"/>
+      <behaviouralElements xsi:type="components:Link" source="//@SAElements.2/@modes.0/@behaviouralElements.2" target="//@SAElements.2/@modes.0/@behaviouralElements.3"/>
+      <behaviouralElements xsi:type="components:Link" source="//@SAElements.2/@modes.0/@behaviouralElements.0" target="//@SAElements.2/@modes.0/@behaviouralElements.3"/>
+      <behaviouralElements xsi:type="components:Link" source="//@SAElements.2/@modes.0/@behaviouralElements.1" target="//@SAElements.2/@modes.0/@behaviouralElements.3"/>
+      <behaviouralElements xsi:type="components:ReceiveMessage" outgoing="//@SAElements.2/@modes.0/@behaviouralElements.8" dataRecipientName="PeopleCounter" fromMessagePorts="//@SAElements.2/@ports.3 //@SAElements.2/@ports.4"/>
+      <behaviouralElements xsi:type="components:Link" source="//@SAElements.2/@modes.0/@behaviouralElements.7" target="//@SAElements.2/@modes.0/@behaviouralElements.3"/>
+    </modes>
+  </SAElements>
+  <SAElements xsi:type="components:Connection" source="//@SAElements.1/@ports.0" target="//@SAElements.2/@ports.2"/>
+  <SAElements xsi:type="components:Connection" source="//@SAElements.0/@ports.0" target="//@SAElements.2/@ports.1"/>
+  <SAElements xsi:type="components:Component" name="People Counter">
+    <ports xsi:type="components:OutMessagePort"/>
+    <modes xsi:type="components:InitialMode" name="Normal Mode">
+      <behaviouralElements xsi:type="components:TimerFired" outgoing="//@SAElements.5/@modes.0/@behaviouralElements.3"/>
+      <behaviouralElements xsi:type="components:StartTimer" outgoing="//@SAElements.5/@modes.0/@behaviouralElements.5" incoming="//@SAElements.5/@modes.0/@behaviouralElements.3" delay="10000"/>
+      <behaviouralElements xsi:type="components:UnicastSendMessage" incoming="//@SAElements.5/@modes.0/@behaviouralElements.6" data="QRData" toMessagePorts="//@SAElements.5/@ports.0" dataRecipient="//@SAElements.5/@applicationData.0"/>
+      <behaviouralElements xsi:type="components:Link" source="//@SAElements.5/@modes.0/@behaviouralElements.0" target="//@SAElements.5/@modes.0/@behaviouralElements.1"/>
+      <behaviouralElements xsi:type="components:CountPeople" outgoing="//@SAElements.5/@modes.0/@behaviouralElements.6" incoming="//@SAElements.5/@modes.0/@behaviouralElements.5"/>
+      <behaviouralElements xsi:type="components:Link" source="//@SAElements.5/@modes.0/@behaviouralElements.1" target="//@SAElements.5/@modes.0/@behaviouralElements.4"/>
+      <behaviouralElements xsi:type="components:Link" source="//@SAElements.5/@modes.0/@behaviouralElements.4" target="//@SAElements.5/@modes.0/@behaviouralElements.2"/>
+      <entries name="EnterMode"/>
+      <exits name="ExitMode" targetMode="//@SAElements.5/@modes.1/@entries.0"/>
+    </modes>
+    <modes name="Critical Mode">
+      <behaviouralElements xsi:type="components:UnicastSendMessage" incoming="//@SAElements.5/@modes.1/@behaviouralElements.6" data="QRData" toMessagePorts="//@SAElements.5/@ports.0" dataRecipient="//@SAElements.5/@applicationData.0"/>
+      <behaviouralElements xsi:type="components:TimerFired" outgoing="//@SAElements.5/@modes.1/@behaviouralElements.3"/>
+      <behaviouralElements xsi:type="components:StartTimer" outgoing="//@SAElements.5/@modes.1/@behaviouralElements.5" incoming="//@SAElements.5/@modes.1/@behaviouralElements.3" delay="1000"/>
+      <behaviouralElements xsi:type="components:Link" source="//@SAElements.5/@modes.1/@behaviouralElements.1" target="//@SAElements.5/@modes.1/@behaviouralElements.2"/>
+      <behaviouralElements xsi:type="components:CountPeople" outgoing="//@SAElements.5/@modes.1/@behaviouralElements.6" incoming="//@SAElements.5/@modes.1/@behaviouralElements.5"/>
+      <behaviouralElements xsi:type="components:Link" source="//@SAElements.5/@modes.1/@behaviouralElements.2" target="//@SAElements.5/@modes.1/@behaviouralElements.4"/>
+      <behaviouralElements xsi:type="components:Link" source="//@SAElements.5/@modes.1/@behaviouralElements.4" target="//@SAElements.5/@modes.1/@behaviouralElements.0"/>
+      <entries name="EnterMode"/>
+      <exits name="ExitMode" targetMode="//@SAElements.5/@modes.0/@entries.0"/>
+    </modes>
+    <applicationData xsi:type="components:PrimitiveDataDeclaration" dataName="PeopleCounter"/>
+  </SAElements>
+  <SAElements xsi:type="components:Connection" source="//@SAElements.5/@ports.0" target="//@SAElements.2/@ports.3"/>
+  <SAElements xsi:type="components:Component" name="People Counter">
+    <ports xsi:type="components:OutMessagePort"/>
+    <modes xsi:type="components:InitialMode" name="Normal Mode">
+      <behaviouralElements xsi:type="components:UnicastSendMessage" incoming="//@SAElements.7/@modes.0/@behaviouralElements.6" data="PeopleCounter" toMessagePorts="//@SAElements.7/@ports.0" dataRecipient="//@SAElements.7/@applicationData.0"/>
+      <behaviouralElements xsi:type="components:TimerFired" outgoing="//@SAElements.7/@modes.0/@behaviouralElements.4"/>
+      <behaviouralElements xsi:type="components:StartTimer" outgoing="//@SAElements.7/@modes.0/@behaviouralElements.5" incoming="//@SAElements.7/@modes.0/@behaviouralElements.4"/>
+      <behaviouralElements xsi:type="components:CountPeople" outgoing="//@SAElements.7/@modes.0/@behaviouralElements.6" incoming="//@SAElements.7/@modes.0/@behaviouralElements.5" dataDeclarationName="PeopleCounter" data="" dataRecipient="//@SAElements.7/@applicationData.0"/>
+      <behaviouralElements xsi:type="components:Link" source="//@SAElements.7/@modes.0/@behaviouralElements.1" target="//@SAElements.7/@modes.0/@behaviouralElements.2"/>
+      <behaviouralElements xsi:type="components:Link" source="//@SAElements.7/@modes.0/@behaviouralElements.2" target="//@SAElements.7/@modes.0/@behaviouralElements.3"/>
+      <behaviouralElements xsi:type="components:Link" source="//@SAElements.7/@modes.0/@behaviouralElements.3" target="//@SAElements.7/@modes.0/@behaviouralElements.0"/>
+      <entries name="EnterMode"/>
+      <exits name="ExitMode" targetMode="//@SAElements.7/@modes.1/@entries.0"/>
+    </modes>
+    <modes name="Critical Mode">
+      <behaviouralElements xsi:type="components:UnicastSendMessage" incoming="//@SAElements.7/@modes.1/@behaviouralElements.6" data="PeopleCounter" toMessagePorts="//@SAElements.7/@ports.0" dataRecipient="//@SAElements.7/@applicationData.0"/>
+      <behaviouralElements xsi:type="components:TimerFired" outgoing="//@SAElements.7/@modes.1/@behaviouralElements.4"/>
+      <behaviouralElements xsi:type="components:StartTimer" outgoing="//@SAElements.7/@modes.1/@behaviouralElements.5" incoming="//@SAElements.7/@modes.1/@behaviouralElements.4"/>
+      <behaviouralElements xsi:type="components:CountPeople" outgoing="//@SAElements.7/@modes.1/@behaviouralElements.6" incoming="//@SAElements.7/@modes.1/@behaviouralElements.5" dataDeclarationName="PeopleCounter"/>
+      <behaviouralElements xsi:type="components:Link" source="//@SAElements.7/@modes.1/@behaviouralElements.1" target="//@SAElements.7/@modes.1/@behaviouralElements.2"/>
+      <behaviouralElements xsi:type="components:Link" source="//@SAElements.7/@modes.1/@behaviouralElements.2" target="//@SAElements.7/@modes.1/@behaviouralElements.3"/>
+      <behaviouralElements xsi:type="components:Link" source="//@SAElements.7/@modes.1/@behaviouralElements.3" target="//@SAElements.7/@modes.1/@behaviouralElements.0"/>
+      <entries name="EnterMode"/>
+      <exits name="ExitMode" targetMode="//@SAElements.7/@modes.0/@entries.0"/>
+    </modes>
+    <applicationData xsi:type="components:PrimitiveDataDeclaration" dataName="PeopleCounter"/>
+  </SAElements>
+  <SAElements xsi:type="components:Connection" source="//@SAElements.7/@ports.0" target="//@SAElements.2/@ports.4"/>
+</components:SoftwareArchitecture>

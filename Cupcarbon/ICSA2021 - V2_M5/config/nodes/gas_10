@@ -1,0 +1,10 @@
+List of parameters
+------------------------------------------
+device_type:2
+device_id:10
+device_longitude:-4.492839574813843
+device_latitude:48.391245330057274
+device_elevation:0.0
+device_radius:10.0
+device_hide:0
+natural_event_file_name:pedSim_PeopleCounter.evt

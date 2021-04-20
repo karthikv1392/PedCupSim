@@ -1,0 +1,12 @@
+List of parameters
+------------------------------------------
+device_type:1
+device_id:14
+device_longitude:-4.489856958389282
+device_latitude:48.391427001654016
+device_elevation:0.0
+device_radius:0.0
+device_hide:0
+device_draw_battery:false
+device_sensor_unit_radius:30.0
+device_script_file_name:ExitRFID.csc

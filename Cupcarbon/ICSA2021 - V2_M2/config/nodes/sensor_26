@@ -7,6 +7,6 @@ device_latitude:48.39200407114136
 device_elevation:0.0
 device_radius:0.0
 device_hide:0
-device_draw_battery:false
-device_sensor_unit_radius:30.0
-device_script_file_name:QRReader2.csc
+device_draw_battery:true
+device_sensor_unit_radius:20.0
+device_script_file_name:RFID_1.csc

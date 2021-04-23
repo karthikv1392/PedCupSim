@@ -1,0 +1,4564 @@
+===========================
+Initialization
+======================================================
+START SIMULATION
+======================================================
+
+----------------------------------------------------------------------------
+Time : 0.0
+Min (milliseconds) : 0.0
+S11 Starts the loop section.
+S11 is waiting for data ...
+S12 ATGET ID.
+S26 ATGET ID.
+S3 Starts the loop section.
+S3 is waiting for data ...
+S38 ATGET ID.
+S4 Starts the loop section.
+S4 is waiting for data ...
+S5 ATGET ID.
+S8 ATGET ID.
+S40 ATGET ID.
+S41 ATGET ID.
+S42 ATGET ID.
+S43 ATGET ID.
+S44 ATGET ID.
+S45 ATGET ID.
+S46 ATGET ID.
+A15 VALUE GENERATION
+A27 VALUE GENERATION
+A39 VALUE GENERATION
+A7 VALUE GENERATION
+A47 VALUE GENERATION
+A48 VALUE GENERATION
+A49 VALUE GENERATION
+A50 VALUE GENERATION
+A51 VALUE GENERATION
+A52 VALUE GENERATION
+A53 VALUE GENERATION
+
+----------------------------------------------------------------------------
+Time : 0.02666666666666667
+Min (milliseconds) : 0.02666666666666667
+S12 Starts the loop section.
+S12 READ SENSOR: S#15#10.63418380648207
+S12 Read DATA: S#15#10.63418380648207
+S12 DATA Creation:12#10.63418380648207
+S12 CALL FUNCTION y(adapter, p1en,100,10)
+S12 is writing the message : "12#10.63418380648207" in its buffer.
+S26 Starts the loop section.
+S26 READ SENSOR: S#27#10.63418380648207
+S26 Read DATA: S#27#10.63418380648207
+S26 DATA Creation:26#10.63418380648207
+S26 CALL FUNCTION y(adapter, p1en,100,10)
+S26 is writing the message : "26#10.63418380648207" in its buffer.
+S38 Starts the loop section.
+S38 READ SENSOR: S#39#10.63418380648207
+S38 Read DATA: S#39#10.63418380648207
+S38 DATA Creation:38#10.63418380648207
+S38 CALL FUNCTION y(adapter, p1en,100,10)
+S38 is writing the message : "38#10.63418380648207" in its buffer.
+S5 Starts the loop section.
+S5 READ SENSOR: S#7#36.34413989670354
+S5 Read DATA: S#7#36.34413989670354
+S5 DATA Creation:5#36.34413989670354
+S5 CALL FUNCTION y(adapter, p1en,100,10)
+S5 is writing the message : "5#36.34413989670354" in its buffer.
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+S40 Starts the loop section.
+S40 READ SENSOR: S#47#10.63418380648207
+S40 Read DATA: S#47#10.63418380648207
+S40 DATA Creation:40#10.63418380648207
+S40 CALL FUNCTION y(adapter, p1en,100,10)
+S40 is writing the message : "40#10.63418380648207" in its buffer.
+S41 Starts the loop section.
+S41 READ SENSOR: S#48#10.63418380648207
+S41 Read DATA: S#48#10.63418380648207
+S41 DATA Creation:41#10.63418380648207
+S41 CALL FUNCTION y(adapter, p1en,100,10)
+S41 is writing the message : "41#10.63418380648207" in its buffer.
+S42 Starts the loop section.
+S42 READ SENSOR: S#50#10.63418380648207
+S42 Read DATA: S#50#10.63418380648207
+S42 DATA Creation:42#10.63418380648207
+S42 CALL FUNCTION y(adapter, p1en,100,10)
+S42 is writing the message : "42#10.63418380648207" in its buffer.
+S43 Starts the loop section.
+S43 READ SENSOR: S#52#10.63418380648207
+S43 Read DATA: S#52#10.63418380648207
+S43 DATA Creation:43#10.63418380648207
+S43 CALL FUNCTION y(adapter, p1en,100,10)
+S43 is writing the message : "43#10.63418380648207" in its buffer.
+S44 Starts the loop section.
+S44 READ SENSOR: S#53#10.63418380648207
+S44 Read DATA: S#53#10.63418380648207
+S44 DATA Creation:44#10.63418380648207
+S44 CALL FUNCTION y(adapter, p1en,100,10)
+S44 is writing the message : "44#10.63418380648207" in its buffer.
+S45 Starts the loop section.
+S45 READ SENSOR: S#51#10.63418380648207
+S45 Read DATA: S#51#10.63418380648207
+S45 DATA Creation:45#10.63418380648207
+S45 CALL FUNCTION y(adapter, p1en,100,10)
+S45 is writing the message : "45#10.63418380648207" in its buffer.
+S46 Starts the loop section.
+S46 READ SENSOR: S#49#10.63418380648207
+S46 Read DATA: S#49#10.63418380648207
+S46 DATA Creation:46#10.63418380648207
+S46 CALL FUNCTION y(adapter, p1en,100,10)
+S46 is writing the message : "46#10.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 0.02666666666666667
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 0.02666666666666667
+Min (milliseconds) : 1.1199999999999999E-19
+S5 is listening to the channel
+S5 the channel is free.
+S5 starts sending the message : "5#36.34413989670354".
+S5 has finished sending the message : "5#36.34413989670354" to the node: 
+S3 (radio: radio1) is receiving the message : "5#36.34413989670354" in its buffer.
+S5 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 0.02666666666666667
+Min (milliseconds) : 8.000000000000001E-21
+S12 is listening to the channel
+S12 the channel is free.
+S12 starts sending the message : "12#10.63418380648207".
+S12 has finished sending the message : "12#10.63418380648207" to the node: 
+S11 (radio: radio1) is receiving the message : "12#10.63418380648207" in its buffer.
+S12 starts delaying for 1000.0 milliseconds
+S26 is listening to the channel
+S26 the channel is free.
+S26 starts sending the message : "26#10.63418380648207".
+S26 has finished sending the message : "26#10.63418380648207" to the node: 
+S3 (radio: radio1) is receiving the message : "26#10.63418380648207" in its buffer.
+S26 starts delaying for 1000.0 milliseconds
+S38 is listening to the channel
+S38 the channel is free.
+S38 starts sending the message : "38#10.63418380648207".
+S38 has finished sending the message : "38#10.63418380648207" to the node: 
+S11 (radio: radio1) is receiving the message : "38#10.63418380648207" in its buffer.
+S38 starts delaying for 1000.0 milliseconds
+S40 is listening to the channel
+S40 the channel is free.
+S40 starts sending the message : "40#10.63418380648207".
+S40 has finished sending the message : "40#10.63418380648207" to the node: 
+S11 (radio: radio1) is receiving the message : "40#10.63418380648207" in its buffer.
+S40 starts delaying for 1000.0 milliseconds
+S41 is listening to the channel
+S41 the channel is free.
+S41 starts sending the message : "41#10.63418380648207".
+S41 has finished sending the message : "41#10.63418380648207" to the node: 
+S11 (radio: radio1) is receiving the message : "41#10.63418380648207" in its buffer.
+S41 starts delaying for 1000.0 milliseconds
+S42 is listening to the channel
+S42 the channel is free.
+S42 starts sending the message : "42#10.63418380648207".
+S42 has finished sending the message : "42#10.63418380648207" to the node: 
+S11 (radio: radio1) is receiving the message : "42#10.63418380648207" in its buffer.
+S42 starts delaying for 1000.0 milliseconds
+S43 is listening to the channel
+S43 the channel is free.
+S43 starts sending the message : "43#10.63418380648207".
+S43 has finished sending the message : "43#10.63418380648207" to the node: 
+S3 (radio: radio1) is receiving the message : "43#10.63418380648207" in its buffer.
+S43 starts delaying for 1000.0 milliseconds
+S44 is listening to the channel
+S44 the channel is free.
+S44 starts sending the message : "44#10.63418380648207".
+S44 has finished sending the message : "44#10.63418380648207" to the node: 
+S3 (radio: radio1) is receiving the message : "44#10.63418380648207" in its buffer.
+S44 starts delaying for 1000.0 milliseconds
+S45 is listening to the channel
+S45 the channel is free.
+S45 starts sending the message : "45#10.63418380648207".
+S45 has finished sending the message : "45#10.63418380648207" to the node: 
+S3 (radio: radio1) is receiving the message : "45#10.63418380648207" in its buffer.
+S45 starts delaying for 1000.0 milliseconds
+S46 is listening to the channel
+S46 the channel is free.
+S46 starts sending the message : "46#10.63418380648207".
+S46 has finished sending the message : "46#10.63418380648207" to the node: 
+S11 (radio: radio1) is receiving the message : "46#10.63418380648207" in its buffer.
+S46 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 0.034161333333333335
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 0.034161333333333335
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 0.049412
+Min (milliseconds) : 0.015250666666666666
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "5#36.34413989670354" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "5#36.34413989670354" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 0.049412
+Min (milliseconds) : 1.52E-19
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "5#36.34413989670354".
+S3 has finished sending the message : "5#36.34413989670354" to the node: 
+S4 (radio: radio1) is receiving the message : "5#36.34413989670354" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 0.05050133333333333
+Min (milliseconds) : 0.0010893333333333343
+S11 Buffer available, exit waiting.
+S11 READ
+S11 is reading from its buffer "12#10.63418380648207" and puts it in x
+S11 GET TIME.
+S11 is writing the message : "12#10.63418380648207" in its buffer.
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "26#10.63418380648207" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "26#10.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 0.041656
+Min (milliseconds) : -0.008845333333333334
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 0.05050133333333333
+Min (milliseconds) : 0.008845333333333334
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "12#10.63418380648207".
+S11 has finished sending the message : "12#10.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "12#10.63418380648207" in its buffer.
+S11 Starts the loop section.
+S11 Buffer available, exit waiting.
+S11 READ
+S11 is reading from its buffer "38#10.63418380648207" and puts it in x
+S11 GET TIME.
+S11 is writing the message : "38#10.63418380648207" in its buffer.
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "26#10.63418380648207".
+S3 has finished sending the message : "26#10.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "26#10.63418380648207" in its buffer.
+S3 Starts the loop section.
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "43#10.63418380648207" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "43#10.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 0.05050133333333333
+Min (milliseconds) : 1.6E-19
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "38#10.63418380648207".
+S11 has finished sending the message : "38#10.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "38#10.63418380648207" in its buffer.
+S11 Starts the loop section.
+S11 Buffer available, exit waiting.
+S11 READ
+S11 is reading from its buffer "40#10.63418380648207" and puts it in x
+S11 GET TIME.
+S11 is writing the message : "40#10.63418380648207" in its buffer.
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "43#10.63418380648207".
+S3 has finished sending the message : "43#10.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "43#10.63418380648207" in its buffer.
+S3 Starts the loop section.
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "44#10.63418380648207" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "44#10.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 0.05050133333333333
+Min (milliseconds) : 1.6E-19
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "40#10.63418380648207".
+S11 has finished sending the message : "40#10.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "40#10.63418380648207" in its buffer.
+S11 Starts the loop section.
+S11 Buffer available, exit waiting.
+S11 READ
+S11 is reading from its buffer "41#10.63418380648207" and puts it in x
+S11 GET TIME.
+S11 is writing the message : "41#10.63418380648207" in its buffer.
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "44#10.63418380648207".
+S3 has finished sending the message : "44#10.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "44#10.63418380648207" in its buffer.
+S3 Starts the loop section.
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "45#10.63418380648207" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "45#10.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 0.05050133333333333
+Min (milliseconds) : 1.6E-19
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "41#10.63418380648207".
+S11 has finished sending the message : "41#10.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "41#10.63418380648207" in its buffer.
+S11 Starts the loop section.
+S11 Buffer available, exit waiting.
+S11 READ
+S11 is reading from its buffer "42#10.63418380648207" and puts it in x
+S11 GET TIME.
+S11 is writing the message : "42#10.63418380648207" in its buffer.
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "45#10.63418380648207".
+S3 has finished sending the message : "45#10.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "45#10.63418380648207" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 0.05050133333333333
+Min (milliseconds) : 1.6E-19
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "42#10.63418380648207".
+S11 has finished sending the message : "42#10.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "42#10.63418380648207" in its buffer.
+S11 Starts the loop section.
+S11 Buffer available, exit waiting.
+S11 READ
+S11 is reading from its buffer "46#10.63418380648207" and puts it in x
+S11 GET TIME.
+S11 is writing the message : "46#10.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 0.05050133333333333
+Min (milliseconds) : 1.6E-19
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "46#10.63418380648207".
+S11 has finished sending the message : "46#10.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "46#10.63418380648207" in its buffer.
+S11 Starts the loop section.
+S11 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 0.07215733333333332
+Min (milliseconds) : 0.021655999999999998
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "5#36.34413989670354" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 0.07433599999999999
+Min (milliseconds) : 0.002178666666666669
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "12#10.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "26#10.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "38#10.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "43#10.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "40#10.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "44#10.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "41#10.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "45#10.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "42#10.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "46#10.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 0.1266667516153223
+Min (milliseconds) : 0.05233075161532231
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 0.1266667516153223
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 0.13416141828198896
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 0.13416141828198896
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 0.14165608494865564
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 0.22666683656397796
+Min (milliseconds) : 0.0850107516153223
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 0.22666683656397796
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 0.23416150323064464
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 0.23416150323064464
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 0.2416561698973113
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 0.3266669215126336
+Min (milliseconds) : 0.0850107516153223
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 0.3266669215126336
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 0.33416158817930025
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 0.33416158817930025
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 0.3416562548459669
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 0.4266670064612892
+Min (milliseconds) : 0.0850107516153223
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 0.4266670064612892
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 0.43416167312795584
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 0.43416167312795584
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 0.4416563397946225
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 0.5266670914099448
+Min (milliseconds) : 0.0850107516153223
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 0.5266670914099448
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 0.5341617580766115
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 0.5341617580766115
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 0.5416564247432781
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 0.6266671763586005
+Min (milliseconds) : 0.0850107516153223
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 0.6266671763586005
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 0.6341618430252671
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 0.6341618430252671
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 0.6416565096919338
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 0.7266672613072561
+Min (milliseconds) : 0.0850107516153223
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 0.7266672613072561
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 0.7341619279739228
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 0.7341619279739228
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 0.7416565946405894
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 0.8266673462559118
+Min (milliseconds) : 0.0850107516153223
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 0.8266673462559118
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 0.8341620129225784
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 0.8341620129225784
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 0.8416566795892451
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 0.9266674312045674
+Min (milliseconds) : 0.0850107516153223
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 0.9266674312045674
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 0.934162097871234
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 0.934162097871234
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 0.9416567645379007
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.0000000000000002
+Min (milliseconds) : 0.05834323546209948
+A10 VALUE GENERATION
+A15 VALUE GENERATION
+A27 VALUE GENERATION
+A39 VALUE GENERATION
+A7 VALUE GENERATION
+A47 VALUE GENERATION
+A48 VALUE GENERATION
+A49 VALUE GENERATION
+A50 VALUE GENERATION
+A51 VALUE GENERATION
+A52 VALUE GENERATION
+A53 VALUE GENERATION
+
+----------------------------------------------------------------------------
+Time : 1.0266265012627684
+Min (milliseconds) : 0.02662650126276822
+S38 has finished the delay.
+
+S38 Starts the loop section.
+S38 READ SENSOR: S#39#10.63418380648207
+S38 Read DATA: S#39#10.63418380648207
+S38 DATA Creation:38#10.63418380648207
+S38 CALL FUNCTION y(adapter, p1en,100,10)
+S38 is writing the message : "38#10.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.0266265012627684
+Min (milliseconds) : 1.6E-19
+S38 is listening to the channel
+S38 the channel is free.
+S38 starts sending the message : "38#10.63418380648207".
+S38 has finished sending the message : "38#10.63418380648207" to the node: 
+S11 (radio: radio1) is receiving the message : "38#10.63418380648207" in its buffer.
+S38 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 1.0266593215897326
+Min (milliseconds) : 3.282032696416676E-5
+S26 has finished the delay.
+
+S26 Starts the loop section.
+S26 READ SENSOR: S#27#10.63418380648207
+S26 Read DATA: S#27#10.63418380648207
+S26 DATA Creation:26#10.63418380648207
+S26 CALL FUNCTION y(adapter, p1en,100,10)
+S26 is writing the message : "26#10.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.0266593215897326
+Min (milliseconds) : 1.6E-19
+S26 is listening to the channel
+S26 the channel is free.
+S26 starts sending the message : "26#10.63418380648207".
+S26 has finished sending the message : "26#10.63418380648207" to the node: 
+S3 (radio: radio1) is receiving the message : "26#10.63418380648207" in its buffer.
+S26 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 1.026661295071097
+Min (milliseconds) : 1.9734813643255753E-6
+S41 has finished the delay.
+
+S41 Starts the loop section.
+S41 READ SENSOR: S#48#10.63418380648207
+S41 Read DATA: S#48#10.63418380648207
+S41 DATA Creation:41#10.63418380648207
+S41 CALL FUNCTION y(adapter, p1en,100,10)
+S41 is writing the message : "41#10.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.026661295071097
+Min (milliseconds) : 1.6E-19
+S41 is listening to the channel
+S41 the channel is free.
+S41 starts sending the message : "41#10.63418380648207".
+S41 has finished sending the message : "41#10.63418380648207" to the node: 
+S11 (radio: radio1) is receiving the message : "41#10.63418380648207" in its buffer.
+S41 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 1.026662463663251
+Min (milliseconds) : 1.1685921541547193E-6
+S40 has finished the delay.
+
+S40 Starts the loop section.
+S40 READ SENSOR: S#47#10.63418380648207
+S40 Read DATA: S#47#10.63418380648207
+S40 DATA Creation:40#10.63418380648207
+S40 CALL FUNCTION y(adapter, p1en,100,10)
+S40 is writing the message : "40#10.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.026662463663251
+Min (milliseconds) : 1.6E-19
+S40 is listening to the channel
+S40 the channel is free.
+S40 starts sending the message : "40#10.63418380648207".
+S40 has finished sending the message : "40#10.63418380648207" to the node: 
+S11 (radio: radio1) is receiving the message : "40#10.63418380648207" in its buffer.
+S40 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 1.026667516153223
+Min (milliseconds) : 5.0524899719571265E-6
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.026667516153223
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 1.026669966835373
+Min (milliseconds) : 2.450682149823762E-6
+S45 has finished the delay.
+
+S45 Starts the loop section.
+S45 READ SENSOR: S#51#10.63418380648207
+S45 Read DATA: S#51#10.63418380648207
+S45 DATA Creation:45#10.63418380648207
+S45 CALL FUNCTION y(adapter, p1en,100,10)
+S45 is writing the message : "45#10.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.026669966835373
+Min (milliseconds) : 1.6E-19
+S45 is listening to the channel
+S45 the channel is free.
+S45 starts sending the message : "45#10.63418380648207".
+S45 has finished sending the message : "45#10.63418380648207" to the node: 
+S3 (radio: radio1) is receiving the message : "45#10.63418380648207" in its buffer.
+S45 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 1.0266762850560887
+Min (milliseconds) : 6.318220715728468E-6
+S42 has finished the delay.
+
+S42 Starts the loop section.
+S42 READ SENSOR: S#50#10.63418380648207
+S42 Read DATA: S#50#10.63418380648207
+S42 DATA Creation:42#10.63418380648207
+S42 CALL FUNCTION y(adapter, p1en,100,10)
+S42 is writing the message : "42#10.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.0266762850560887
+Min (milliseconds) : 1.6E-19
+S42 is listening to the channel
+S42 the channel is free.
+S42 starts sending the message : "42#10.63418380648207".
+S42 has finished sending the message : "42#10.63418380648207" to the node: 
+S11 (radio: radio1) is receiving the message : "42#10.63418380648207" in its buffer.
+S42 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 1.0266763096924625
+Min (milliseconds) : 2.4636373829718267E-8
+S44 has finished the delay.
+
+S44 Starts the loop section.
+S44 READ SENSOR: S#53#10.63418380648207
+S44 Read DATA: S#53#10.63418380648207
+S44 DATA Creation:44#10.63418380648207
+S44 CALL FUNCTION y(adapter, p1en,100,10)
+S44 is writing the message : "44#10.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.0266763096924625
+Min (milliseconds) : 1.6E-19
+S44 is listening to the channel
+S44 the channel is free.
+S44 starts sending the message : "44#10.63418380648207".
+S44 has finished sending the message : "44#10.63418380648207" to the node: 
+S3 (radio: radio1) is receiving the message : "44#10.63418380648207" in its buffer.
+S44 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 1.0266810005578297
+Min (milliseconds) : 4.690865367251559E-6
+S5 has finished the delay.
+
+S5 Starts the loop section.
+S5 READ SENSOR: S#7#38.232938582974086
+S5 Read DATA: S#7#38.232938582974086
+S5 DATA Creation:5#38.232938582974086
+S5 CALL FUNCTION y(adapter, p1en,100,10)
+S5 is writing the message : "5#38.232938582974086" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.0266810005578297
+Min (milliseconds) : 1.6E-19
+S5 is listening to the channel
+S5 the channel is free.
+S5 starts sending the message : "5#38.232938582974086".
+S5 has finished sending the message : "5#38.232938582974086" to the node: 
+S3 (radio: radio1) is receiving the message : "5#38.232938582974086" in its buffer.
+S5 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 1.0266883924348311
+Min (milliseconds) : 7.391877001383503E-6
+S46 has finished the delay.
+
+S46 Starts the loop section.
+S46 READ SENSOR: S#49#10.63418380648207
+S46 Read DATA: S#49#10.63418380648207
+S46 DATA Creation:46#10.63418380648207
+S46 CALL FUNCTION y(adapter, p1en,100,10)
+S46 is writing the message : "46#10.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.0266883924348311
+Min (milliseconds) : 1.6E-19
+S46 is listening to the channel
+S46 the channel is free.
+S46 starts sending the message : "46#10.63418380648207".
+S46 has finished sending the message : "46#10.63418380648207" to the node: 
+S11 (radio: radio1) is receiving the message : "46#10.63418380648207" in its buffer.
+S46 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 1.0266918171493042
+Min (milliseconds) : 3.424714473121266E-6
+S12 has finished the delay.
+
+S12 Starts the loop section.
+S12 READ SENSOR: S#15#10.63418380648207
+S12 Read DATA: S#15#10.63418380648207
+S12 DATA Creation:12#10.63418380648207
+S12 CALL FUNCTION y(adapter, p1en,100,10)
+S12 is writing the message : "12#10.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.0266918171493042
+Min (milliseconds) : 1.6E-19
+S12 is listening to the channel
+S12 the channel is free.
+S12 starts sending the message : "12#10.63418380648207".
+S12 has finished sending the message : "12#10.63418380648207" to the node: 
+S11 (radio: radio1) is receiving the message : "12#10.63418380648207" in its buffer.
+S12 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 1.02671158363077
+Min (milliseconds) : 1.976648146584364E-5
+S43 has finished the delay.
+
+S43 Starts the loop section.
+S43 READ SENSOR: S#52#10.63418380648207
+S43 Read DATA: S#52#10.63418380648207
+S43 DATA Creation:43#10.63418380648207
+S43 CALL FUNCTION y(adapter, p1en,100,10)
+S43 is writing the message : "43#10.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.02671158363077
+Min (milliseconds) : 1.6E-19
+S43 is listening to the channel
+S43 the channel is free.
+S43 starts sending the message : "43#10.63418380648207".
+S43 has finished sending the message : "43#10.63418380648207" to the node: 
+S3 (radio: radio1) is receiving the message : "43#10.63418380648207" in its buffer.
+S43 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 1.0504611679294351
+Min (milliseconds) : 0.02374958429866508
+S11 Buffer available, exit waiting.
+S11 READ
+S11 is reading from its buffer "38#10.63418380648207" and puts it in x
+S11 GET TIME.
+S11 is writing the message : "38#10.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.0504611679294351
+Min (milliseconds) : 1.6E-19
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "38#10.63418380648207".
+S11 has finished sending the message : "38#10.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "38#10.63418380648207" in its buffer.
+S11 Starts the loop section.
+S11 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.0504939882563993
+Min (milliseconds) : 3.282032696416676E-5
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "26#10.63418380648207" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "26#10.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.0504939882563993
+Min (milliseconds) : 1.6E-19
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "26#10.63418380648207".
+S3 has finished sending the message : "26#10.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "26#10.63418380648207" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.0504959617377636
+Min (milliseconds) : 1.9734813643255753E-6
+S11 Buffer available, exit waiting.
+S11 READ
+S11 is reading from its buffer "41#10.63418380648207" and puts it in x
+S11 GET TIME.
+S11 is writing the message : "41#10.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.0504959617377636
+Min (milliseconds) : 1.6E-19
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "41#10.63418380648207".
+S11 has finished sending the message : "41#10.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "41#10.63418380648207" in its buffer.
+S11 Starts the loop section.
+S11 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.0504971303299178
+Min (milliseconds) : 1.1685921541547193E-6
+S11 Buffer available, exit waiting.
+S11 READ
+S11 is reading from its buffer "40#10.63418380648207" and puts it in x
+S11 GET TIME.
+S11 is writing the message : "40#10.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.0341621828198897
+Min (milliseconds) : -0.016334947510028043
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.0341621828198897
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.0504971303299178
+Min (milliseconds) : 0.016334947510028043
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "40#10.63418380648207".
+S11 has finished sending the message : "40#10.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "40#10.63418380648207" in its buffer.
+S11 Starts the loop section.
+S11 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.0505046335020396
+Min (milliseconds) : 7.503172121781088E-6
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "45#10.63418380648207" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "45#10.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.0505046335020396
+Min (milliseconds) : 1.6E-19
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "45#10.63418380648207".
+S3 has finished sending the message : "45#10.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "45#10.63418380648207" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.0505109517227553
+Min (milliseconds) : 6.3182207157284684E-6
+S11 Buffer available, exit waiting.
+S11 READ
+S11 is reading from its buffer "42#10.63418380648207" and puts it in x
+S11 GET TIME.
+S11 is writing the message : "42#10.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.0505109517227553
+Min (milliseconds) : 1.6E-19
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "42#10.63418380648207".
+S11 has finished sending the message : "42#10.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "42#10.63418380648207" in its buffer.
+S11 Starts the loop section.
+S11 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.0505109763591292
+Min (milliseconds) : 2.4636373829718267E-8
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "44#10.63418380648207" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "44#10.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.0505109763591292
+Min (milliseconds) : 1.6E-19
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "44#10.63418380648207".
+S3 has finished sending the message : "44#10.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "44#10.63418380648207" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.0505156672244964
+Min (milliseconds) : 4.690865367251558E-6
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "5#38.232938582974086" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "5#38.232938582974086" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.0505156672244964
+Min (milliseconds) : 1.6E-19
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "5#38.232938582974086".
+S3 has finished sending the message : "5#38.232938582974086" to the node: 
+S4 (radio: radio1) is receiving the message : "5#38.232938582974086" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.0505230591014978
+Min (milliseconds) : 7.391877001383502E-6
+S11 Buffer available, exit waiting.
+S11 READ
+S11 is reading from its buffer "46#10.63418380648207" and puts it in x
+S11 GET TIME.
+S11 is writing the message : "46#10.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.0505230591014978
+Min (milliseconds) : 1.6E-19
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "46#10.63418380648207".
+S11 has finished sending the message : "46#10.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "46#10.63418380648207" in its buffer.
+S11 Starts the loop section.
+S11 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.050526483815971
+Min (milliseconds) : 3.424714473121267E-6
+S11 Buffer available, exit waiting.
+S11 READ
+S11 is reading from its buffer "12#10.63418380648207" and puts it in x
+S11 GET TIME.
+S11 is writing the message : "12#10.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.050526483815971
+Min (milliseconds) : 1.6E-19
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "12#10.63418380648207".
+S11 has finished sending the message : "12#10.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "12#10.63418380648207" in its buffer.
+S11 Starts the loop section.
+S11 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.0505462502974368
+Min (milliseconds) : 1.9766481465843648E-5
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "43#10.63418380648207" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "43#10.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.0505462502974368
+Min (milliseconds) : 1.6E-19
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "43#10.63418380648207".
+S3 has finished sending the message : "43#10.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "43#10.63418380648207" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.0742958345961018
+Min (milliseconds) : 0.023749584298665076
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "38#10.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.074328654923066
+Min (milliseconds) : 3.2820326964166924E-5
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "26#10.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.0743306284044303
+Min (milliseconds) : 1.9734813643257354E-6
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "41#10.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.0416568494865563
+Min (milliseconds) : -0.03267377891787389
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.0743317969965844
+Min (milliseconds) : 0.03267494751002804
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "40#10.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.0743393001687063
+Min (milliseconds) : 7.503172121781088E-6
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "45#10.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.074345618389422
+Min (milliseconds) : 6.3182207157286285E-6
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "42#10.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.0743456430257958
+Min (milliseconds) : 2.4636373829878266E-8
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "44#10.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.074350333891163
+Min (milliseconds) : 4.6908653672517175E-6
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "5#38.232938582974086" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.0743577257681645
+Min (milliseconds) : 7.391877001383662E-6
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "46#10.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.0743611504826376
+Min (milliseconds) : 3.4247144731214263E-6
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "12#10.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.0743809169641034
+Min (milliseconds) : 1.976648146584381E-5
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "43#10.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.126662859794017
+Min (milliseconds) : 0.052281942829913566
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.126662859794017
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 1.1341575264606836
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.1341575264606836
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.1416521931273502
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.2266582034348108
+Min (milliseconds) : 0.08500601030746054
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.2266582034348108
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 1.2341528701014775
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.2341528701014775
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.241647536768144
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.3266535470756047
+Min (milliseconds) : 0.08500601030746054
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.3266535470756047
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 1.3341482137422713
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.3341482137422713
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.341642880408938
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.4266488907163986
+Min (milliseconds) : 0.08500601030746054
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.4266488907163986
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 1.4341435573830652
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.4341435573830652
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.4416382240497319
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.5266442343571924
+Min (milliseconds) : 0.08500601030746054
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.5266442343571924
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 1.534138901023859
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.534138901023859
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.5416335676905257
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.6266395779979863
+Min (milliseconds) : 0.08500601030746054
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.6266395779979863
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 1.634134244664653
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.634134244664653
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.6416289113313196
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.7266349216387802
+Min (milliseconds) : 0.08500601030746054
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.7266349216387802
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 1.7341295883054468
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.7341295883054468
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.7416242549721135
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.826630265279574
+Min (milliseconds) : 0.08500601030746054
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.826630265279574
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 1.8341249319462407
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.8341249319462407
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.8416195986129074
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.926625608920368
+Min (milliseconds) : 0.08500601030746054
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.926625608920368
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 1.9341202755870346
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.9341202755870346
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.9416149422537012
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.0000000000000004
+Min (milliseconds) : 0.058385057746299276
+A10 VALUE GENERATION
+A15 VALUE GENERATION
+A27 VALUE GENERATION
+A39 VALUE GENERATION
+A7 VALUE GENERATION
+A47 VALUE GENERATION
+A48 VALUE GENERATION
+A49 VALUE GENERATION
+A50 VALUE GENERATION
+A51 VALUE GENERATION
+A52 VALUE GENERATION
+A53 VALUE GENERATION
+
+----------------------------------------------------------------------------
+Time : 2.0265955634068957
+Min (milliseconds) : 0.026595563406895062
+S38 has finished the delay.
+
+S38 Starts the loop section.
+S38 READ SENSOR: S#39#9.63418380648207
+S38 Read DATA: S#39#9.63418380648207
+S38 DATA Creation:38#9.63418380648207
+S38 CALL FUNCTION y(adapter, p1en,100,10)
+S38 is writing the message : "38#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.0265955634068957
+Min (milliseconds) : 1.52E-19
+S38 is listening to the channel
+S38 the channel is free.
+S38 starts sending the message : "38#9.63418380648207".
+S38 has finished sending the message : "38#9.63418380648207" to the node: 
+S11 (radio: radio1) is receiving the message : "38#9.63418380648207" in its buffer.
+S38 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 2.026620952561162
+Min (milliseconds) : 2.5389154266197547E-5
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.026620952561162
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 2.026662684921554
+Min (milliseconds) : 4.173236039212154E-5
+S26 has finished the delay.
+
+S26 Starts the loop section.
+S26 READ SENSOR: S#27#9.63418380648207
+S26 Read DATA: S#27#9.63418380648207
+S26 DATA Creation:26#9.63418380648207
+S26 CALL FUNCTION y(adapter, p1en,100,10)
+S26 is writing the message : "26#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.026662684921554
+Min (milliseconds) : 1.52E-19
+S26 is listening to the channel
+S26 the channel is free.
+S26 starts sending the message : "26#9.63418380648207".
+S26 has finished sending the message : "26#9.63418380648207" to the node: 
+S3 (radio: radio1) is receiving the message : "26#9.63418380648207" in its buffer.
+S26 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 2.0266735278115737
+Min (milliseconds) : 1.084289001962431E-5
+S45 has finished the delay.
+
+S45 Starts the loop section.
+S45 READ SENSOR: S#51#9.63418380648207
+S45 Read DATA: S#51#9.63418380648207
+S45 DATA Creation:45#9.63418380648207
+S45 CALL FUNCTION y(adapter, p1en,100,10)
+S45 is writing the message : "45#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.0266735278115737
+Min (milliseconds) : 1.52E-19
+S45 is listening to the channel
+S45 the channel is free.
+S45 starts sending the message : "45#9.63418380648207".
+S45 has finished sending the message : "45#9.63418380648207" to the node: 
+S3 (radio: radio1) is receiving the message : "45#9.63418380648207" in its buffer.
+S45 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 2.0266755588100254
+Min (milliseconds) : 2.0309984516407454E-6
+S44 has finished the delay.
+
+S44 Starts the loop section.
+S44 READ SENSOR: S#53#9.63418380648207
+S44 Read DATA: S#53#9.63418380648207
+S44 DATA Creation:44#9.63418380648207
+S44 CALL FUNCTION y(adapter, p1en,100,10)
+S44 is writing the message : "44#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.0266755588100254
+Min (milliseconds) : 1.52E-19
+S44 is listening to the channel
+S44 the channel is free.
+S44 starts sending the message : "44#9.63418380648207".
+S44 has finished sending the message : "44#9.63418380648207" to the node: 
+S3 (radio: radio1) is receiving the message : "44#9.63418380648207" in its buffer.
+S44 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 2.0266760918444997
+Min (milliseconds) : 5.330344743369054E-7
+S5 has finished the delay.
+
+S5 Starts the loop section.
+S5 READ SENSOR: S#7#31.373692892946384
+S5 Read DATA: S#7#31.373692892946384
+S5 DATA Creation:5#31.373692892946384
+S5 CALL FUNCTION y(adapter, p1en,100,10)
+S5 is writing the message : "5#31.373692892946384" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.0266760918444997
+Min (milliseconds) : 1.6E-19
+S5 is listening to the channel
+S5 the channel is free.
+S5 starts sending the message : "5#31.373692892946384".
+S5 has finished sending the message : "5#31.373692892946384" to the node: 
+S3 (radio: radio1) is receiving the message : "5#31.373692892946384" in its buffer.
+S5 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 2.0266800774926477
+Min (milliseconds) : 3.985648147963712E-6
+S42 has finished the delay.
+
+S42 Starts the loop section.
+S42 READ SENSOR: S#50#9.63418380648207
+S42 Read DATA: S#50#9.63418380648207
+S42 DATA Creation:42#9.63418380648207
+S42 CALL FUNCTION y(adapter, p1en,100,10)
+S42 is writing the message : "42#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.0266800774926477
+Min (milliseconds) : 1.52E-19
+S42 is listening to the channel
+S42 the channel is free.
+S42 starts sending the message : "42#9.63418380648207".
+S42 has finished sending the message : "42#9.63418380648207" to the node: 
+S11 (radio: radio1) is receiving the message : "42#9.63418380648207" in its buffer.
+S42 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 2.0266907416059654
+Min (milliseconds) : 1.0664113317737492E-5
+S12 has finished the delay.
+
+S12 Starts the loop section.
+S12 READ SENSOR: S#15#9.63418380648207
+S12 Read DATA: S#15#9.63418380648207
+S12 DATA Creation:12#9.63418380648207
+S12 CALL FUNCTION y(adapter, p1en,100,10)
+S12 is writing the message : "12#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.0266907416059654
+Min (milliseconds) : 1.52E-19
+S12 is listening to the channel
+S12 the channel is free.
+S12 starts sending the message : "12#9.63418380648207".
+S12 has finished sending the message : "12#9.63418380648207" to the node: 
+S11 (radio: radio1) is receiving the message : "12#9.63418380648207" in its buffer.
+S12 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 2.0266928345177946
+Min (milliseconds) : 2.092911829398706E-6
+S41 has finished the delay.
+
+S41 Starts the loop section.
+S41 READ SENSOR: S#48#9.63418380648207
+S41 Read DATA: S#48#9.63418380648207
+S41 DATA Creation:41#9.63418380648207
+S41 CALL FUNCTION y(adapter, p1en,100,10)
+S41 is writing the message : "41#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.0266928345177946
+Min (milliseconds) : 1.52E-19
+S41 is listening to the channel
+S41 the channel is free.
+S41 starts sending the message : "41#9.63418380648207".
+S41 has finished sending the message : "41#9.63418380648207" to the node: 
+S11 (radio: radio1) is receiving the message : "41#9.63418380648207" in its buffer.
+S41 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 2.026698640912784
+Min (milliseconds) : 5.806394989260462E-6
+S46 has finished the delay.
+
+S46 Starts the loop section.
+S46 READ SENSOR: S#49#9.63418380648207
+S46 Read DATA: S#49#9.63418380648207
+S46 DATA Creation:46#9.63418380648207
+S46 CALL FUNCTION y(adapter, p1en,100,10)
+S46 is writing the message : "46#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.026698640912784
+Min (milliseconds) : 1.52E-19
+S46 is listening to the channel
+S46 the channel is free.
+S46 starts sending the message : "46#9.63418380648207".
+S46 has finished sending the message : "46#9.63418380648207" to the node: 
+S11 (radio: radio1) is receiving the message : "46#9.63418380648207" in its buffer.
+S46 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 2.026701001312039
+Min (milliseconds) : 2.360399255385406E-6
+S43 has finished the delay.
+
+S43 Starts the loop section.
+S43 READ SENSOR: S#52#9.63418380648207
+S43 Read DATA: S#52#9.63418380648207
+S43 DATA Creation:43#9.63418380648207
+S43 CALL FUNCTION y(adapter, p1en,100,10)
+S43 is writing the message : "43#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.026701001312039
+Min (milliseconds) : 1.52E-19
+S43 is listening to the channel
+S43 the channel is free.
+S43 starts sending the message : "43#9.63418380648207".
+S43 has finished sending the message : "43#9.63418380648207" to the node: 
+S3 (radio: radio1) is receiving the message : "43#9.63418380648207" in its buffer.
+S43 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 2.026711732954507
+Min (milliseconds) : 1.0731642468231176E-5
+S40 has finished the delay.
+
+S40 Starts the loop section.
+S40 READ SENSOR: S#47#9.63418380648207
+S40 Read DATA: S#47#9.63418380648207
+S40 DATA Creation:40#9.63418380648207
+S40 CALL FUNCTION y(adapter, p1en,100,10)
+S40 is writing the message : "40#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.026711732954507
+Min (milliseconds) : 1.52E-19
+S40 is listening to the channel
+S40 the channel is free.
+S40 starts sending the message : "40#9.63418380648207".
+S40 has finished sending the message : "40#9.63418380648207" to the node: 
+S11 (radio: radio1) is receiving the message : "40#9.63418380648207" in its buffer.
+S40 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 2.0493408967402282
+Min (milliseconds) : 0.022629163785721433
+S11 Buffer available, exit waiting.
+S11 READ
+S11 is reading from its buffer "38#9.63418380648207" and puts it in x
+S11 GET TIME.
+S11 is writing the message : "38#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.0341156192278276
+Min (milliseconds) : -0.015225277512400468
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.0341156192278276
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.0493408967402282
+Min (milliseconds) : 0.015225277512400468
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "38#9.63418380648207".
+S11 has finished sending the message : "38#9.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "38#9.63418380648207" in its buffer.
+S11 Starts the loop section.
+S11 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.0494080182548866
+Min (milliseconds) : 6.712151465831928E-5
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "26#9.63418380648207" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "26#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.0494080182548866
+Min (milliseconds) : 1.52E-19
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "26#9.63418380648207".
+S3 has finished sending the message : "26#9.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "26#9.63418380648207" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.0494188611449062
+Min (milliseconds) : 1.084289001962431E-5
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "45#9.63418380648207" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "45#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.0494188611449062
+Min (milliseconds) : 1.52E-19
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "45#9.63418380648207".
+S3 has finished sending the message : "45#9.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "45#9.63418380648207" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.049420892143358
+Min (milliseconds) : 2.0309984516407454E-6
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "44#9.63418380648207" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "44#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.049420892143358
+Min (milliseconds) : 1.52E-19
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "44#9.63418380648207".
+S3 has finished sending the message : "44#9.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "44#9.63418380648207" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.0505107585111655
+Min (milliseconds) : 0.0010898663678076714
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "5#31.373692892946384" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "5#31.373692892946384" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.04942541082598
+Min (milliseconds) : -0.0010853476851853706
+S11 Buffer available, exit waiting.
+S11 READ
+S11 is reading from its buffer "42#9.63418380648207" and puts it in x
+S11 GET TIME.
+S11 is writing the message : "42#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.04942541082598
+Min (milliseconds) : 1.52E-19
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "42#9.63418380648207".
+S11 has finished sending the message : "42#9.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "42#9.63418380648207" in its buffer.
+S11 Starts the loop section.
+S11 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.049436074939298
+Min (milliseconds) : 1.0664113317737492E-5
+S11 Buffer available, exit waiting.
+S11 READ
+S11 is reading from its buffer "12#9.63418380648207" and puts it in x
+S11 GET TIME.
+S11 is writing the message : "12#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.049436074939298
+Min (milliseconds) : 1.52E-19
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "12#9.63418380648207".
+S11 has finished sending the message : "12#9.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "12#9.63418380648207" in its buffer.
+S11 Starts the loop section.
+S11 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.049438167851127
+Min (milliseconds) : 2.092911829398706E-6
+S11 Buffer available, exit waiting.
+S11 READ
+S11 is reading from its buffer "41#9.63418380648207" and puts it in x
+S11 GET TIME.
+S11 is writing the message : "41#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.049438167851127
+Min (milliseconds) : 1.52E-19
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "41#9.63418380648207".
+S11 has finished sending the message : "41#9.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "41#9.63418380648207" in its buffer.
+S11 Starts the loop section.
+S11 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.0494439742461164
+Min (milliseconds) : 5.806394989260459E-6
+S11 Buffer available, exit waiting.
+S11 READ
+S11 is reading from its buffer "46#9.63418380648207" and puts it in x
+S11 GET TIME.
+S11 is writing the message : "46#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.0494439742461164
+Min (milliseconds) : 1.52E-19
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "46#9.63418380648207".
+S11 has finished sending the message : "46#9.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "46#9.63418380648207" in its buffer.
+S11 Starts the loop section.
+S11 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.0494463346453715
+Min (milliseconds) : 2.360399255385406E-6
+
+----------------------------------------------------------------------------
+Time : 2.04945706628784
+Min (milliseconds) : 1.0731642468231332E-5
+S11 Buffer available, exit waiting.
+S11 READ
+S11 is reading from its buffer "40#9.63418380648207" and puts it in x
+S11 GET TIME.
+S11 is writing the message : "40#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.0416102858944942
+Min (milliseconds) : -0.007846780393345701
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.04945706628784
+Min (milliseconds) : 0.007846780393345701
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "40#9.63418380648207".
+S11 has finished sending the message : "40#9.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "40#9.63418380648207" in its buffer.
+S11 Starts the loop section.
+S11 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.0505107585111655
+Min (milliseconds) : 0.0010536922233253566
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "5#31.373692892946384".
+S3 has finished sending the message : "5#31.373692892946384" to the node: 
+S4 (radio: radio1) is receiving the message : "5#31.373692892946384" in its buffer.
+S3 Starts the loop section.
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "43#9.63418380648207" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "43#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.0505107585111655
+Min (milliseconds) : 1.52E-19
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "43#9.63418380648207".
+S3 has finished sending the message : "43#9.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "43#9.63418380648207" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.0720862300735616
+Min (milliseconds) : 0.021575471562396076
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "38#9.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.07215335158822
+Min (milliseconds) : 6.712151465831928E-5
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "26#9.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.0721641944782396
+Min (milliseconds) : 1.0842890019624463E-5
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "45#9.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.0721662254766913
+Min (milliseconds) : 2.0309984516408974E-6
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "44#9.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.0721707441593136
+Min (milliseconds) : 4.518682622300929E-6
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "42#9.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.0721814082726313
+Min (milliseconds) : 1.0664113317737645E-5
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "12#9.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.072183501184461
+Min (milliseconds) : 2.092911829398858E-6
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "41#9.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.07218930757945
+Min (milliseconds) : 5.80639498926061E-6
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "46#9.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.072202399621174
+Min (milliseconds) : 1.3092041723616887E-5
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "40#9.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.0743454251778326
+Min (milliseconds) : 0.002143025556658691
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "5#31.373692892946384" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.0732560918444993
+Min (milliseconds) : -0.0010893333333333345
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "43#9.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.1266162962019557
+Min (milliseconds) : 0.053360204357456156
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.1266162962019557
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 2.1341109628686223
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.1341109628686223
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.141605629535289
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.2266116398427496
+Min (milliseconds) : 0.08500601030746054
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.2266116398427496
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 2.234106306509416
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.234106306509416
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.241600973176083
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.3266069834835434
+Min (milliseconds) : 0.08500601030746054
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.3266069834835434
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 2.33410165015021
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.33410165015021
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.3415963168168767
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.4266023271243373
+Min (milliseconds) : 0.08500601030746054
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.4266023271243373
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 2.434096993791004
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.434096993791004
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.4415916604576706
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.526597670765131
+Min (milliseconds) : 0.08500601030746054
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.526597670765131
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 2.534092337431798
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.534092337431798
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.5415870040984645
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.626593014405925
+Min (milliseconds) : 0.08500601030746054
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.626593014405925
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 2.6340876810725917
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.6340876810725917
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.6415823477392584
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.726588358046719
+Min (milliseconds) : 0.08500601030746054
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.726588358046719
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 2.7340830247133856
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.7340830247133856
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.7415776913800523
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.826583701687513
+Min (milliseconds) : 0.08500601030746054
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.826583701687513
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 2.8340783683541795
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.8340783683541795
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.841573035020846
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.9265790453283067
+Min (milliseconds) : 0.08500601030746054
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.9265790453283067
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 2.9340737119949734
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.9340737119949734
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.94156837866164
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.000000000000001
+Min (milliseconds) : 0.05843162133836084
+A10 VALUE GENERATION
+A15 VALUE GENERATION
+A27 VALUE GENERATION
+A39 VALUE GENERATION
+A7 VALUE GENERATION
+A47 VALUE GENERATION
+A48 VALUE GENERATION
+A49 VALUE GENERATION
+A50 VALUE GENERATION
+A51 VALUE GENERATION
+A52 VALUE GENERATION
+A53 VALUE GENERATION
+
+----------------------------------------------------------------------------
+Time : 3.026564625551023
+Min (milliseconds) : 0.026564625551021903
+S38 has finished the delay.
+
+S38 Starts the loop section.
+S38 READ SENSOR: S#39#9.63418380648207
+S38 Read DATA: S#39#9.63418380648207
+S38 DATA Creation:38#9.63418380648207
+S38 CALL FUNCTION y(adapter, p1en,100,10)
+S38 is writing the message : "38#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.026564625551023
+Min (milliseconds) : 1.52E-19
+S38 is listening to the channel
+S38 the channel is free.
+S38 starts sending the message : "38#9.63418380648207".
+S38 has finished sending the message : "38#9.63418380648207" to the node: 
+S11 (radio: radio1) is receiving the message : "38#9.63418380648207" in its buffer.
+S38 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 3.0265743889691006
+Min (milliseconds) : 9.763418077790423E-6
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.0265743889691006
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 3.026666048253375
+Min (milliseconds) : 9.165928427451449E-5
+S26 has finished the delay.
+
+S26 Starts the loop section.
+S26 READ SENSOR: S#27#9.63418380648207
+S26 Read DATA: S#27#9.63418380648207
+S26 DATA Creation:26#9.63418380648207
+S26 CALL FUNCTION y(adapter, p1en,100,10)
+S26 is writing the message : "26#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.026666048253375
+Min (milliseconds) : 1.52E-19
+S26 is listening to the channel
+S26 the channel is free.
+S26 starts sending the message : "26#9.63418380648207".
+S26 has finished sending the message : "26#9.63418380648207" to the node: 
+S3 (radio: radio1) is receiving the message : "26#9.63418380648207" in its buffer.
+S26 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 3.0266711831311692
+Min (milliseconds) : 5.13487779429929E-6
+S5 has finished the delay.
+
+S5 Starts the loop section.
+S5 READ SENSOR: S#7#39.85490510159318
+S5 Read DATA: S#7#39.85490510159318
+S5 DATA Creation:5#39.85490510159318
+S5 CALL FUNCTION y(adapter, p1en,100,10)
+S5 is writing the message : "5#39.85490510159318" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.0266711831311692
+Min (milliseconds) : 1.52E-19
+S5 is listening to the channel
+S5 the channel is free.
+S5 starts sending the message : "5#39.85490510159318".
+S5 has finished sending the message : "5#39.85490510159318" to the node: 
+S3 (radio: radio1) is receiving the message : "5#39.85490510159318" in its buffer.
+S5 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 3.026674807927588
+Min (milliseconds) : 3.62479641857745E-6
+S44 has finished the delay.
+
+S44 Starts the loop section.
+S44 READ SENSOR: S#53#9.63418380648207
+S44 Read DATA: S#53#9.63418380648207
+S44 DATA Creation:44#9.63418380648207
+S44 CALL FUNCTION y(adapter, p1en,100,10)
+S44 is writing the message : "44#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.026674807927588
+Min (milliseconds) : 1.52E-19
+S44 is listening to the channel
+S44 the channel is free.
+S44 starts sending the message : "44#9.63418380648207".
+S44 has finished sending the message : "44#9.63418380648207" to the node: 
+S3 (radio: radio1) is receiving the message : "44#9.63418380648207" in its buffer.
+S44 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 3.026677088787774
+Min (milliseconds) : 2.2808601862765603E-6
+S45 has finished the delay.
+
+S45 Starts the loop section.
+S45 READ SENSOR: S#51#9.63418380648207
+S45 Read DATA: S#51#9.63418380648207
+S45 DATA Creation:45#9.63418380648207
+S45 CALL FUNCTION y(adapter, p1en,100,10)
+S45 is writing the message : "45#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.026677088787774
+Min (milliseconds) : 1.52E-19
+S45 is listening to the channel
+S45 the channel is free.
+S45 starts sending the message : "45#9.63418380648207".
+S45 has finished sending the message : "45#9.63418380648207" to the node: 
+S3 (radio: radio1) is receiving the message : "45#9.63418380648207" in its buffer.
+S45 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 3.026683869929206
+Min (milliseconds) : 6.781141432154872E-6
+S42 has finished the delay.
+
+S42 Starts the loop section.
+S42 READ SENSOR: S#50#9.63418380648207
+S42 Read DATA: S#50#9.63418380648207
+S42 DATA Creation:42#9.63418380648207
+S42 CALL FUNCTION y(adapter, p1en,100,10)
+S42 is writing the message : "42#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.026683869929206
+Min (milliseconds) : 1.52E-19
+S42 is listening to the channel
+S42 the channel is free.
+S42 starts sending the message : "42#9.63418380648207".
+S42 has finished sending the message : "42#9.63418380648207" to the node: 
+S11 (radio: radio1) is receiving the message : "42#9.63418380648207" in its buffer.
+S42 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 3.0266896660626257
+Min (milliseconds) : 5.79613341988844E-6
+S12 has finished the delay.
+
+S12 Starts the loop section.
+S12 READ SENSOR: S#15#9.63418380648207
+S12 Read DATA: S#15#9.63418380648207
+S12 DATA Creation:12#9.63418380648207
+S12 CALL FUNCTION y(adapter, p1en,100,10)
+S12 is writing the message : "12#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.0266896660626257
+Min (milliseconds) : 1.52E-19
+S12 is listening to the channel
+S12 the channel is free.
+S12 starts sending the message : "12#9.63418380648207".
+S12 has finished sending the message : "12#9.63418380648207" to the node: 
+S11 (radio: radio1) is receiving the message : "12#9.63418380648207" in its buffer.
+S12 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 3.026690418993308
+Min (milliseconds) : 7.529306822460924E-7
+S43 has finished the delay.
+
+S43 Starts the loop section.
+S43 READ SENSOR: S#52#9.63418380648207
+S43 Read DATA: S#52#9.63418380648207
+S43 DATA Creation:43#9.63418380648207
+S43 CALL FUNCTION y(adapter, p1en,100,10)
+S43 is writing the message : "43#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.026690418993308
+Min (milliseconds) : 1.52E-19
+S43 is listening to the channel
+S43 the channel is free.
+S43 starts sending the message : "43#9.63418380648207".
+S43 has finished sending the message : "43#9.63418380648207" to the node: 
+S3 (radio: radio1) is receiving the message : "43#9.63418380648207" in its buffer.
+S43 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 3.026708889390736
+Min (milliseconds) : 1.8470397428194003E-5
+S46 has finished the delay.
+
+S46 Starts the loop section.
+S46 READ SENSOR: S#49#9.63418380648207
+S46 Read DATA: S#49#9.63418380648207
+S46 DATA Creation:46#9.63418380648207
+S46 CALL FUNCTION y(adapter, p1en,100,10)
+S46 is writing the message : "46#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.026708889390736
+Min (milliseconds) : 1.52E-19
+S46 is listening to the channel
+S46 the channel is free.
+S46 starts sending the message : "46#9.63418380648207".
+S46 has finished sending the message : "46#9.63418380648207" to the node: 
+S11 (radio: radio1) is receiving the message : "46#9.63418380648207" in its buffer.
+S46 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 3.0267243739644916
+Min (milliseconds) : 1.5484573755663998E-5
+S41 has finished the delay.
+
+S41 Starts the loop section.
+S41 READ SENSOR: S#48#9.63418380648207
+S41 Read DATA: S#48#9.63418380648207
+S41 DATA Creation:41#9.63418380648207
+S41 CALL FUNCTION y(adapter, p1en,100,10)
+S41 is writing the message : "41#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.0267243739644916
+Min (milliseconds) : 1.52E-19
+S41 is listening to the channel
+S41 the channel is free.
+S41 starts sending the message : "41#9.63418380648207".
+S41 has finished sending the message : "41#9.63418380648207" to the node: 
+S11 (radio: radio1) is receiving the message : "41#9.63418380648207" in its buffer.
+S41 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 3.026761002245763
+Min (milliseconds) : 3.6628281271599953E-5
+S40 has finished the delay.
+
+S40 Starts the loop section.
+S40 READ SENSOR: S#47#9.63418380648207
+S40 Read DATA: S#47#9.63418380648207
+S40 DATA Creation:40#9.63418380648207
+S40 CALL FUNCTION y(adapter, p1en,100,10)
+S40 is writing the message : "40#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.026761002245763
+Min (milliseconds) : 1.52E-19
+S40 is listening to the channel
+S40 the channel is free.
+S40 starts sending the message : "40#9.63418380648207".
+S40 has finished sending the message : "40#9.63418380648207" to the node: 
+S11 (radio: radio1) is receiving the message : "40#9.63418380648207" in its buffer.
+S40 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 3.049309958884355
+Min (milliseconds) : 0.022548956638592126
+S11 Buffer available, exit waiting.
+S11 READ
+S11 is reading from its buffer "38#9.63418380648207" and puts it in x
+S11 GET TIME.
+S11 is writing the message : "38#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.0340690556357663
+Min (milliseconds) : -0.015240903248588875
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.0340690556357663
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.049309958884355
+Min (milliseconds) : 0.015240903248588875
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "38#9.63418380648207".
+S11 has finished sending the message : "38#9.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "38#9.63418380648207" in its buffer.
+S11 Starts the loop section.
+S11 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.049411381586707
+Min (milliseconds) : 1.014227023523051E-4
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "26#9.63418380648207" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "26#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.049411381586707
+Min (milliseconds) : 1.52E-19
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "26#9.63418380648207".
+S3 has finished sending the message : "26#9.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "26#9.63418380648207" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.0494165164645013
+Min (milliseconds) : 5.13487779429929E-6
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "5#39.85490510159318" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "5#39.85490510159318" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.0494165164645013
+Min (milliseconds) : 1.52E-19
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "5#39.85490510159318".
+S3 has finished sending the message : "5#39.85490510159318" to the node: 
+S4 (radio: radio1) is receiving the message : "5#39.85490510159318" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.04942014126092
+Min (milliseconds) : 3.62479641857745E-6
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "44#9.63418380648207" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "44#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.04942014126092
+Min (milliseconds) : 1.52E-19
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "44#9.63418380648207".
+S3 has finished sending the message : "44#9.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "44#9.63418380648207" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.049422422121106
+Min (milliseconds) : 2.2808601862765603E-6
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "45#9.63418380648207" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "45#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.049422422121106
+Min (milliseconds) : 1.52E-19
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "45#9.63418380648207".
+S3 has finished sending the message : "45#9.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "45#9.63418380648207" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.049429203262538
+Min (milliseconds) : 6.781141432154872E-6
+S11 Buffer available, exit waiting.
+S11 READ
+S11 is reading from its buffer "42#9.63418380648207" and puts it in x
+S11 GET TIME.
+S11 is writing the message : "42#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.049429203262538
+Min (milliseconds) : 1.52E-19
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "42#9.63418380648207".
+S11 has finished sending the message : "42#9.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "42#9.63418380648207" in its buffer.
+S11 Starts the loop section.
+S11 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.0494349993959577
+Min (milliseconds) : 5.796133419888453E-6
+S11 Buffer available, exit waiting.
+S11 READ
+S11 is reading from its buffer "12#9.63418380648207" and puts it in x
+S11 GET TIME.
+S11 is writing the message : "12#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.0494349993959577
+Min (milliseconds) : 1.52E-19
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "12#9.63418380648207".
+S11 has finished sending the message : "12#9.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "12#9.63418380648207" in its buffer.
+S11 Starts the loop section.
+S11 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.04943575232664
+Min (milliseconds) : 7.529306822460924E-7
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "43#9.63418380648207" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "43#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.04943575232664
+Min (milliseconds) : 1.52E-19
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "43#9.63418380648207".
+S3 has finished sending the message : "43#9.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "43#9.63418380648207" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.049454222724068
+Min (milliseconds) : 1.8470397428193976E-5
+S11 Buffer available, exit waiting.
+S11 READ
+S11 is reading from its buffer "46#9.63418380648207" and puts it in x
+S11 GET TIME.
+S11 is writing the message : "46#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.049454222724068
+Min (milliseconds) : 1.52E-19
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "46#9.63418380648207".
+S11 has finished sending the message : "46#9.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "46#9.63418380648207" in its buffer.
+S11 Starts the loop section.
+S11 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.0494697072978236
+Min (milliseconds) : 1.5484573755663998E-5
+S11 Buffer available, exit waiting.
+S11 READ
+S11 is reading from its buffer "41#9.63418380648207" and puts it in x
+S11 GET TIME.
+S11 is writing the message : "41#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.0494697072978236
+Min (milliseconds) : 1.52E-19
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "41#9.63418380648207".
+S11 has finished sending the message : "41#9.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "41#9.63418380648207" in its buffer.
+S11 Starts the loop section.
+S11 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.0495063355790952
+Min (milliseconds) : 3.6628281271599953E-5
+S11 Buffer available, exit waiting.
+S11 READ
+S11 is reading from its buffer "40#9.63418380648207" and puts it in x
+S11 GET TIME.
+S11 is writing the message : "40#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.0415637223024317
+Min (milliseconds) : -0.007942613276663416
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.0495063355790952
+Min (milliseconds) : 0.007942613276663416
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "40#9.63418380648207".
+S11 has finished sending the message : "40#9.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "40#9.63418380648207" in its buffer.
+S11 Starts the loop section.
+S11 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.072055292217687
+Min (milliseconds) : 0.022548956638592126
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "38#9.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.0721567149200393
+Min (milliseconds) : 1.014227023523051E-4
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "26#9.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.0721618497978334
+Min (milliseconds) : 5.134877794299442E-6
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "5#39.85490510159318" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.072165474594252
+Min (milliseconds) : 3.6247964185776027E-6
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "44#9.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.072167755454438
+Min (milliseconds) : 2.280860186276712E-6
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "45#9.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.0721745365958704
+Min (milliseconds) : 6.7811414321550245E-6
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "42#9.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.0721803327292903
+Min (milliseconds) : 5.796133419888605E-6
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "12#9.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.0721810856599725
+Min (milliseconds) : 7.529306822462445E-7
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "43#9.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.0721995560574005
+Min (milliseconds) : 1.847039742819412E-5
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "46#9.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.072215040631156
+Min (milliseconds) : 1.5484573755664144E-5
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "41#9.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.0722516689124277
+Min (milliseconds) : 3.6628281271600116E-5
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "40#9.63418380648207" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.1265697326098913
+Min (milliseconds) : 0.05431806369746379
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.1265697326098913
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 3.134064399276558
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.134064399276558
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.1415590659432246
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.2265650762506852
+Min (milliseconds) : 0.08500601030746054
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.2265650762506852
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 3.234059742917352
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.234059742917352
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.2415544095840185
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.326560419891479
+Min (milliseconds) : 0.08500601030746054
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.326560419891479
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 3.3340550865581458
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.3340550865581458
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.3415497532248124
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.426555763532273
+Min (milliseconds) : 0.08500601030746054
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.426555763532273
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 3.4340504301989396
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.4340504301989396
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.4415450968656063
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.526551107173067
+Min (milliseconds) : 0.08500601030746054
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.526551107173067
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 3.5340457738397335
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.5340457738397335
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.5415404405064
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.6265464508138607
+Min (milliseconds) : 0.08500601030746054
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.6265464508138607
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 3.6340411174805274
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.6340411174805274
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.641535784147194
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.7265417944546546
+Min (milliseconds) : 0.08500601030746054
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.7265417944546546
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 3.7340364611213213
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.7340364611213213
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.741531127787988
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.8265371380954485
+Min (milliseconds) : 0.08500601030746054
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.8265371380954485
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 3.834031804762115
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.834031804762115
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.841526471428782
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.9265324817362424
+Min (milliseconds) : 0.08500601030746054
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.9265324817362424
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 3.934027148402909
+Min (milliseconds) : 0.007494666666666667
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.934027148402909
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.9415218150695757
+Min (milliseconds) : 0.007494666666666667
+S4 Buffer available, exit waiting.
+S4 READ
+S4 is reading from its buffer "8#0.0" and puts it in x
+S4 PRINT [println, $x]
+S4 Starts the loop section.
+S4 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.999999999999998
+Min (milliseconds) : 0.0584781849304223
+A10 VALUE GENERATION
+A15 VALUE GENERATION
+A27 VALUE GENERATION
+A39 VALUE GENERATION
+A7 VALUE GENERATION
+A47 VALUE GENERATION
+A48 VALUE GENERATION
+A49 VALUE GENERATION
+A50 VALUE GENERATION
+A51 VALUE GENERATION
+A52 VALUE GENERATION
+A53 VALUE GENERATION
+
+----------------------------------------------------------------------------
+Time : 4.026527825377036
+Min (milliseconds) : 0.02652782537703824
+S8 has finished the delay.
+
+S8 Starts the loop section.
+S8 READ SENSOR: S#10#0.0
+S8 Read DATA: S#10#0.0
+S8 DATA Creation:8#0.0
+S8 CALL FUNCTION y(adapter, p1en,100,10)
+S8 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 4.026527825377036
+Min (milliseconds) : 4.0E-20
+S8 is listening to the channel
+S8 the channel is free.
+S8 starts sending the message : "8#0.0".
+S8 has finished sending the message : "8#0.0" to the node: 
+S3 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S8 starts delaying for 100.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 4.026533687695146
+Min (milliseconds) : 5.862318110505487E-6
+S38 has finished the delay.
+
+S38 Starts the loop section.
+S38 READ SENSOR: S#39#9.63418380648207
+S38 Read DATA: S#39#9.63418380648207
+S38 DATA Creation:38#9.63418380648207
+S38 CALL FUNCTION y(adapter, p1en,100,10)
+S38 is writing the message : "38#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 4.026533687695146
+Min (milliseconds) : 1.52E-19
+S38 is listening to the channel
+S38 the channel is free.
+S38 starts sending the message : "38#9.63418380648207".
+S38 has finished sending the message : "38#9.63418380648207" to the node: 
+S11 (radio: radio1) is receiving the message : "38#9.63418380648207" in its buffer.
+S38 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 4.026666274417835
+Min (milliseconds) : 1.3258672268928723E-4
+S5 has finished the delay.
+
+S5 Starts the loop section.
+S5 READ SENSOR: S#7#41.00644069286945
+S5 Read DATA: S#7#41.00644069286945
+S5 DATA Creation:5#41.00644069286945
+S5 CALL FUNCTION y(adapter, p1en,100,10)
+S5 is writing the message : "5#41.00644069286945" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 4.026666274417835
+Min (milliseconds) : 1.52E-19
+S5 is listening to the channel
+S5 the channel is free.
+S5 starts sending the message : "5#41.00644069286945".
+S5 has finished sending the message : "5#41.00644069286945" to the node: 
+S3 (radio: radio1) is receiving the message : "5#41.00644069286945" in its buffer.
+S5 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 4.026669411585192
+Min (milliseconds) : 3.137167357003382E-6
+S26 has finished the delay.
+
+S26 Starts the loop section.
+S26 READ SENSOR: S#27#9.63418380648207
+S26 Read DATA: S#27#9.63418380648207
+S26 DATA Creation:26#9.63418380648207
+S26 CALL FUNCTION y(adapter, p1en,100,10)
+S26 is writing the message : "26#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 4.026669411585192
+Min (milliseconds) : 1.52E-19
+S26 is listening to the channel
+S26 the channel is free.
+S26 starts sending the message : "26#9.63418380648207".
+S26 has finished sending the message : "26#9.63418380648207" to the node: 
+S3 (radio: radio1) is receiving the message : "26#9.63418380648207" in its buffer.
+S26 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 4.026674057045146
+Min (milliseconds) : 4.645459954488577E-6
+S44 has finished the delay.
+
+S44 Starts the loop section.
+S44 READ SENSOR: S#53#9.63418380648207
+S44 Read DATA: S#53#9.63418380648207
+S44 DATA Creation:44#9.63418380648207
+S44 CALL FUNCTION y(adapter, p1en,100,10)
+S44 is writing the message : "44#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 4.026674057045146
+Min (milliseconds) : 1.52E-19
+S44 is listening to the channel
+S44 the channel is free.
+S44 starts sending the message : "44#9.63418380648207".
+S44 has finished sending the message : "44#9.63418380648207" to the node: 
+S3 (radio: radio1) is receiving the message : "44#9.63418380648207" in its buffer.
+S44 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 4.026679836674573
+Min (milliseconds) : 5.779629427049418E-6
+S43 has finished the delay.
+
+S43 Starts the loop section.
+S43 READ SENSOR: S#52#9.63418380648207
+S43 Read DATA: S#52#9.63418380648207
+S43 DATA Creation:43#9.63418380648207
+S43 CALL FUNCTION y(adapter, p1en,100,10)
+S43 is writing the message : "43#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 4.026679836674573
+Min (milliseconds) : 1.52E-19
+S43 is listening to the channel
+S43 the channel is free.
+S43 starts sending the message : "43#9.63418380648207".
+S43 has finished sending the message : "43#9.63418380648207" to the node: 
+S3 (radio: radio1) is receiving the message : "43#9.63418380648207" in its buffer.
+S43 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 4.0266806497639696
+Min (milliseconds) : 8.130893971445985E-7
+S45 has finished the delay.
+
+S45 Starts the loop section.
+S45 READ SENSOR: S#51#9.63418380648207
+S45 Read DATA: S#51#9.63418380648207
+S45 DATA Creation:45#9.63418380648207
+S45 CALL FUNCTION y(adapter, p1en,100,10)
+S45 is writing the message : "45#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 4.0266806497639696
+Min (milliseconds) : 1.52E-19
+S45 is listening to the channel
+S45 the channel is free.
+S45 starts sending the message : "45#9.63418380648207".
+S45 has finished sending the message : "45#9.63418380648207" to the node: 
+S3 (radio: radio1) is receiving the message : "45#9.63418380648207" in its buffer.
+S45 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 4.0266876623657595
+Min (milliseconds) : 7.012601790368071E-6
+S42 has finished the delay.
+
+S42 Starts the loop section.
+S42 READ SENSOR: S#50#9.63418380648207
+S42 Read DATA: S#50#9.63418380648207
+S42 DATA Creation:42#9.63418380648207
+S42 CALL FUNCTION y(adapter, p1en,100,10)
+S42 is writing the message : "42#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 4.0266876623657595
+Min (milliseconds) : 1.52E-19
+S42 is listening to the channel
+S42 the channel is free.
+S42 starts sending the message : "42#9.63418380648207".
+S42 has finished sending the message : "42#9.63418380648207" to the node: 
+S11 (radio: radio1) is receiving the message : "42#9.63418380648207" in its buffer.
+S42 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 4.0266885905192815
+Min (milliseconds) : 9.281535220394125E-7
+S12 has finished the delay.
+
+S12 Starts the loop section.
+S12 READ SENSOR: S#15#9.63418380648207
+S12 Read DATA: S#15#9.63418380648207
+S12 DATA Creation:12#9.63418380648207
+S12 CALL FUNCTION y(adapter, p1en,100,10)
+S12 is writing the message : "12#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 4.0266885905192815
+Min (milliseconds) : 1.52E-19
+S12 is listening to the channel
+S12 the channel is free.
+S12 starts sending the message : "12#9.63418380648207".
+S12 has finished sending the message : "12#9.63418380648207" to the node: 
+S11 (radio: radio1) is receiving the message : "12#9.63418380648207" in its buffer.
+S12 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 4.0267191378686835
+Min (milliseconds) : 3.0547349402221115E-5
+S46 has finished the delay.
+
+S46 Starts the loop section.
+S46 READ SENSOR: S#49#9.63418380648207
+S46 Read DATA: S#49#9.63418380648207
+S46 DATA Creation:46#9.63418380648207
+S46 CALL FUNCTION y(adapter, p1en,100,10)
+S46 is writing the message : "46#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 4.0267191378686835
+Min (milliseconds) : 1.52E-19
+S46 is listening to the channel
+S46 the channel is free.
+S46 starts sending the message : "46#9.63418380648207".
+S46 has finished sending the message : "46#9.63418380648207" to the node: 
+S11 (radio: radio1) is receiving the message : "46#9.63418380648207" in its buffer.
+S46 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 4.026755913411184
+Min (milliseconds) : 3.677554250058874E-5
+S41 has finished the delay.
+
+S41 Starts the loop section.
+S41 READ SENSOR: S#48#9.63418380648207
+S41 Read DATA: S#48#9.63418380648207
+S41 DATA Creation:41#9.63418380648207
+S41 CALL FUNCTION y(adapter, p1en,100,10)
+S41 is writing the message : "41#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 4.026755913411184
+Min (milliseconds) : 1.52E-19
+S41 is listening to the channel
+S41 the channel is free.
+S41 starts sending the message : "41#9.63418380648207".
+S41 has finished sending the message : "41#9.63418380648207" to the node: 
+S11 (radio: radio1) is receiving the message : "41#9.63418380648207" in its buffer.
+S41 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 4.0268102715370135
+Min (milliseconds) : 5.4358125830322565E-5
+S40 has finished the delay.
+
+S40 Starts the loop section.
+S40 READ SENSOR: S#47#9.63418380648207
+S40 Read DATA: S#47#9.63418380648207
+S40 DATA Creation:40#9.63418380648207
+S40 CALL FUNCTION y(adapter, p1en,100,10)
+S40 is writing the message : "40#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 4.0268102715370135
+Min (milliseconds) : 1.52E-19
+S40 is listening to the channel
+S40 the channel is free.
+S40 starts sending the message : "40#9.63418380648207".
+S40 has finished sending the message : "40#9.63418380648207" to the node: 
+S11 (radio: radio1) is receiving the message : "40#9.63418380648207" in its buffer.
+S40 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 4.034022492043699
+Min (milliseconds) : 0.007212220506685647
+S3 Buffer available, exit waiting.
+S3 READ
+S3 is reading from its buffer "8#0.0" and puts it in x
+S3 GET TIME.
+S3 is writing the message : "8#0.0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 4.034022492043699
+Min (milliseconds) : 4.0E-20
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "8#0.0".
+S3 has finished sending the message : "8#0.0" to the node: 
+S4 (radio: radio1) is receiving the message : "8#0.0" in its buffer.
+S3 Starts the loop section.
+S3 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 4.049279021028476
+Min (milliseconds) : 0.015256528984777171
+S11 Buffer available, exit waiting.
+S11 READ
+S11 is reading from its buffer "38#9.63418380648207" and puts it in x
+S11 GET TIME.
+S11 is writing the message : "38#9.63418380648207" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 4.049279021028476
+Min (milliseconds) : 1.52E-19
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "38#9.63418380648207".
+S11 has finished sending the message : "38#9.63418380648207" to the node: 
+S4 (radio: radio1) is receiving the message : "38#9.63418380648207" in its buffer.
+S11 Starts the loop section.
+S11 is waiting for data ...

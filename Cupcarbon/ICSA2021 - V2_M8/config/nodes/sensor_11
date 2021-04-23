@@ -7,6 +7,6 @@ device_latitude:48.391676353562815
 device_elevation:0.0
 device_radius:0.0
 device_hide:0
-device_draw_battery:false
+device_draw_battery:true
 device_sensor_unit_radius:45.0
 device_script_file_name:Contoller1.csc

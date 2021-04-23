@@ -1,0 +1,12 @@
+List of parameters
+------------------------------------------
+device_type:1
+device_id:51
+device_longitude:-4.493064880371094
+device_latitude:48.39165498089871
+device_elevation:0.0
+device_radius:0.0
+device_hide:0
+device_draw_battery:true
+device_sensor_unit_radius:20.0
+device_script_file_name:RFID_1.csc

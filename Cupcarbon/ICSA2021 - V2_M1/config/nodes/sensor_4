@@ -2,11 +2,11 @@ List of parameters
 ------------------------------------------
 device_type:1
 device_id:4
-device_longitude:-4.491128325462341
-device_latitude:48.391683477916715
+device_longitude:-4.491299986839294
+device_latitude:48.3917689696465
 device_elevation:0.0
 device_radius:0.0
 device_hide:0
-device_draw_battery:false
+device_draw_battery:true
 device_sensor_unit_radius:30.0
 device_script_file_name:VASARICloud.csc

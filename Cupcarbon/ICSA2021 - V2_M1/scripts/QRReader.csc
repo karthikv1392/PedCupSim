@@ -5,7 +5,7 @@ rdata $x a b c
 data p $id $c
 function y adapter p1en,100,10
 if($y==10.0)
-	send $p 11
+	send $p 3
 end
 if($y==20.0)
 	send $p 4

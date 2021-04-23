@@ -2,11 +2,11 @@ List of parameters
 ------------------------------------------
 device_type:1
 device_id:38
-device_longitude:-4.4899749755859375
-device_latitude:48.392110935628644
+device_longitude:-4.490060806274414
+device_latitude:48.392167929653674
 device_elevation:0.0
 device_radius:0.0
 device_hide:0
-device_draw_battery:false
-device_sensor_unit_radius:30.0
-device_script_file_name:PeopleCounter2.csc
+device_draw_battery:true
+device_sensor_unit_radius:20.0
+device_script_file_name:CCTVCamera_2.csc

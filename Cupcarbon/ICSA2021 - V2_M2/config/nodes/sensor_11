@@ -3,10 +3,10 @@ List of parameters
 device_type:1
 device_id:11
 device_longitude:-4.490307569503784
-device_latitude:48.391676353562815
+device_latitude:48.39173334805468
 device_elevation:0.0
 device_radius:0.0
 device_hide:0
-device_draw_battery:false
-device_sensor_unit_radius:45.0
+device_draw_battery:true
+device_sensor_unit_radius:40.0
 device_script_file_name:Contoller1.csc

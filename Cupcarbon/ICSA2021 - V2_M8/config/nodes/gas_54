@@ -1,0 +1,10 @@
+List of parameters
+------------------------------------------
+device_type:2
+device_id:54
+device_longitude:-4.492635726928711
+device_latitude:48.39222492359889
+device_elevation:0.0
+device_radius:10.0
+device_hide:0
+natural_event_file_name:RFIDData - Copy.evt

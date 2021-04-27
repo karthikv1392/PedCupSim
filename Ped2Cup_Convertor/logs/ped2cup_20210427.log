@@ -1,0 +1,61 @@
+2021-04-27 10:07:59 DEBUG Logger Initialized
+2021-04-27 10:08:01 ERROR [Errno 2] No such file or directory: 'config/config_mode1.json'
+2021-04-27 10:08:58 DEBUG Logger Initialized
+2021-04-27 10:08:58 ERROR [Errno 2] No such file or directory: './config/config_mode1.json'
+2021-04-27 10:09:19 DEBUG Logger Initialized
+2021-04-27 10:09:20 ERROR [Errno 2] No such file or directory: './config/config_mode1.json'
+2021-04-27 10:09:44 DEBUG Logger Initialized
+2021-04-27 10:09:44 ERROR [Errno 2] No such file or directory: './config/config_mode1.json'
+2021-04-27 10:11:18 DEBUG Logger Initialized
+2021-04-27 10:12:36 DEBUG Logger Initialized
+2021-04-27 10:15:59 DEBUG Logger Initialized
+2021-04-27 10:16:44 DEBUG Logger Initialized
+2021-04-27 10:17:10 DEBUG Logger Initialized
+2021-04-27 10:18:18 DEBUG Logger Initialized
+2021-04-27 10:18:42 DEBUG Logger Initialized
+2021-04-27 10:19:09 DEBUG Logger Initialized
+2021-04-27 13:21:24 DEBUG Logger Initialized
+2021-04-27 13:22:08 DEBUG Logger Initialized
+2021-04-27 13:23:55 DEBUG Logger Initialized
+2021-04-27 13:34:45 DEBUG Logger Initialized
+2021-04-27 13:41:56 DEBUG Logger Initialized
+2021-04-27 13:51:11 DEBUG Logger Initialized
+2021-04-27 15:01:47 DEBUG Logger Initialized
+2021-04-27 15:01:48 ERROR [Errno 2] No such file or directory: 'config_dir/config_model2.json'
+2021-04-27 15:02:13 DEBUG Logger Initialized
+2021-04-27 15:02:14 ERROR [Errno 2] No such file or directory: 'config_dir/config_model2.json'
+2021-04-27 15:02:39 DEBUG Logger Initialized
+2021-04-27 15:02:40 ERROR [Errno 2] No such file or directory: 'config_dir/config_model2.json'
+2021-04-27 15:03:12 DEBUG Logger Initialized
+2021-04-27 15:03:13 ERROR [Errno 2] No such file or directory: 'config_dir/config_model2.json'
+2021-04-27 15:03:14 DEBUG Logger Initialized
+2021-04-27 15:03:15 ERROR [Errno 2] No such file or directory: 'config_dir/config_model2.json'
+2021-04-27 15:03:34 DEBUG Logger Initialized
+2021-04-27 15:05:50 DEBUG Logger Initialized
+2021-04-27 15:12:54 DEBUG Logger Initialized
+2021-04-27 15:22:00 DEBUG Logger Initialized
+2021-04-27 15:42:50 DEBUG Logger Initialized
+2021-04-27 15:45:09 DEBUG Logger Initialized
+2021-04-27 15:55:19 DEBUG Logger Initialized
+2021-04-27 15:56:48 DEBUG Logger Initialized
+2021-04-27 16:00:06 DEBUG Logger Initialized
+2021-04-27 16:03:46 DEBUG Logger Initialized
+2021-04-27 16:04:13 DEBUG Logger Initialized
+2021-04-27 16:07:47 DEBUG Logger Initialized
+2021-04-27 16:12:35 DEBUG Logger Initialized
+2021-04-27 16:13:36 DEBUG Logger Initialized
+2021-04-27 16:14:08 DEBUG Logger Initialized
+2021-04-27 16:14:46 DEBUG Logger Initialized
+2021-04-27 16:15:24 DEBUG Logger Initialized
+2021-04-27 16:41:12 DEBUG Logger Initialized
+2021-04-27 16:42:02 DEBUG Logger Initialized
+2021-04-27 16:42:33 DEBUG Logger Initialized
+2021-04-27 16:44:54 DEBUG Logger Initialized
+2021-04-27 16:46:41 DEBUG Logger Initialized
+2021-04-27 16:47:29 DEBUG Logger Initialized
+2021-04-27 16:48:00 DEBUG Logger Initialized
+2021-04-27 16:48:38 DEBUG Logger Initialized
+2021-04-27 16:51:15 DEBUG Logger Initialized
+2021-04-27 16:52:06 DEBUG Logger Initialized
+2021-04-27 16:52:36 DEBUG Logger Initialized
+2021-04-27 16:53:01 DEBUG Logger Initialized

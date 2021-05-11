@@ -3,8 +3,8 @@ List of parameters
 device_type:2
 device_id:7
 device_longitude:-4.493225812911987
-device_latitude:48.391697726599006
+device_latitude:48.39166922920844
 device_elevation:0.0
 device_radius:10.0
 device_hide:0
-natural_event_file_name:PeopleCounterData.evt
+natural_event_file_name:camera_2.evt

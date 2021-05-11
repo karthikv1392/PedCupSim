@@ -2,9 +2,9 @@ List of parameters
 ------------------------------------------
 device_type:2
 device_id:49
-device_longitude:-4.492592811584473
-device_latitude:48.392196426614284
+device_longitude:-4.492936134338379
+device_latitude:48.391996947100736
 device_elevation:0.0
 device_radius:10.0
 device_hide:0
-natural_event_file_name:RFIDData.evt
+natural_event_file_name:camera_1.evt

@@ -4,7 +4,7 @@ name:ICSA2021
 zoom:0
 centerposition_la:48.39135753948048
 centerposition_lo:-4.491305351257324
-map:2
+map:0
 display_details:true
 draw_radio_links:true
 draw_sensor_arrows:true

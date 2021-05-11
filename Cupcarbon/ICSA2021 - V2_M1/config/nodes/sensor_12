@@ -3,10 +3,10 @@ List of parameters
 device_type:1
 device_id:12
 device_longitude:-4.489610195159912
-device_latitude:48.39192926626597
+device_latitude:48.3919007688754
 device_elevation:0.0
 device_radius:0.0
 device_hide:0
 device_draw_battery:true
 device_sensor_unit_radius:20.0
-device_script_file_name:CCTVCamera_2.csc
+device_script_file_name:ExitPeopleCounter2.csc

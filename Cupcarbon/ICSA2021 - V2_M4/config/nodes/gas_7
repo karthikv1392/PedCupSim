@@ -7,4 +7,4 @@ device_latitude:48.391697726599006
 device_elevation:0.0
 device_radius:10.0
 device_hide:0
-natural_event_file_name:PeopleCounterData.evt
+natural_event_file_name:camera_2.evt

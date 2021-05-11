@@ -1,17 +1,12 @@
-atget id id
 loop
-areadsensor x
-rdata $x a b c
-data p $id $c
-function y adapter p1en,100,10
-if($y==10.0)
-	send $p 11
+areadsensor v
+if($v!=X)
+	print $v
+	rdata $v a b c
+	send $c 11
 end
-if($y==20.0)
-	send $p 4
+if($c>2)
+	delay 75000
+else
+	delay 150000
 end
-if($y==30.0)
-	#Internal Processing
-	send $p $id		
-end
-delay 1000

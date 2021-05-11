@@ -1,7 +1,7 @@
+//Receiver
 loop
 wait
-read x
-#println $x
-time t
-#printfile $t $x
-send $x 4
+read v
+send v 4
+mark v
+delay 1000

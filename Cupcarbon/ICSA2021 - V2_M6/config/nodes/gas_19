@@ -7,4 +7,4 @@ device_latitude:48.39124176758974
 device_elevation:0.0
 device_radius:10.0
 device_hide:0
-natural_event_file_name:RFIDData.evt
+natural_event_file_name:counter_exit1.evt

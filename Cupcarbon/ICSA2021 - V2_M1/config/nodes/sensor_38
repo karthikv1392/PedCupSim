@@ -3,10 +3,10 @@ List of parameters
 device_type:1
 device_id:38
 device_longitude:-4.489932060241699
-device_latitude:48.392110935628644
+device_latitude:48.39213943227909
 device_elevation:0.0
 device_radius:0.0
 device_hide:0
 device_draw_battery:true
 device_sensor_unit_radius:20.0
-device_script_file_name:PeopleCounter2.csc
+device_script_file_name:ExitPeopleCounter3.csc

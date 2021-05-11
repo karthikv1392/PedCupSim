@@ -1,10 +1,10 @@
 CupCarbon v. IoT 5.0
 ----------------
 name:ICSA2021
-zoom:0
-centerposition_la:48.39149112116006
-centerposition_lo:-4.491329491138458
-map:2
+zoom:1
+centerposition_la:48.39149468333339
+centerposition_lo:-4.491340219974518
+map:0
 display_details:true
 draw_radio_links:true
 draw_sensor_arrows:true

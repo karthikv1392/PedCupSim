@@ -1,5 +1,5 @@
 # PedCupSim
-Repository of the paper submitted to ECSA 2021
+Repository containing source code and datasets for result replications of the paper submitted to ECSA 2021.
 
 ### Creating CAPS Models
 

@@ -36,32 +36,32 @@ QR reader in the exits
 
 #### Scenario 1, 
 
-qoe_penalty = 10
-qos_penalty = 5
-qos_goal = 150.0
-qoe_goal = 1200
++ qoe_penalty = 10
++ qos_penalty = 5
++ qos_goal = 150.0
++ qoe_goal = 1200
 
 
 #### Scenario 2
 
-qoe_penalty = 10
-qos_penalty = 10
-qos_goal = 150
-qoe_goal = 800
++ qoe_penalty = 10
++ qos_penalty = 10
++ qos_goal = 150
++ qoe_goal = 800
 
 #### Scenario 3
 
-qoe_penalty = 5
-qos_penalty = 10
-qos = 100
-qoe = 400
++ qoe_penalty = 5
++ qos_penalty = 10
++ qos = 100
++ qoe = 400
 
 #### Scenario 4
 
-qoe_penalty = 15
-qos_penalty = 3
-qos = 125
-qoe = 100
++ qoe_penalty = 15
++ qos_penalty = 3
++ qos = 125
++ qoe = 100
 
 ### Analysis
 

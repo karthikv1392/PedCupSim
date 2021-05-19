@@ -1,5 +1,8 @@
 ## Models and Configurations 
 
+*config_dir* contains the configuration json for different models used. These are listed below
+
+
 + config_model1.json:  with QR in the entrance, RFID and camera
 in the corridor and people counter in the exits
 
@@ -17,9 +20,3 @@ people counter in the exits
 
 + config_model6.json: with QR reader in the entrance, RFID readers in the corridors
 and people counter in the exits
-
-+ config_model7.json: People counter in the entrance, camera in the corridors
-and people counter in the exits
-
-+ config_model8.json: People counter in the entrance, RFID in the corridors and
-QR reader in the exits

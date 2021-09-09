@@ -1,3 +1,5 @@
+import itertools
+
 _Author_ = "Karthik Vaidhyanathan"
 
 
@@ -61,32 +63,33 @@ class Ped_To_Cup_Generator():
             x2 = range_dict[1][0]
             y2 = range_dict[1][1]
 
-            print (x1, y1)
-            print (x2,y2)
+            x_coords = [x for x in range(x1, x2 + 1)]
+            y_coords = [y for y in range(y1, y2 + 1)]
+            output = list(itertools.product(x_coords, y_coords))
+            loc_list = []
+            for p in output:
+                point = "{" + str(p[0]) + ";" + str(p[1]) + "}"
+                loc_list.append(point)
 
-            # collect the datapoints that needs to be collected
-
-            loc_list = [] # the list that is required to be fetched from the pandas dataframe
-
-            #loc_list.append("{"+str(x2)+";"+str(y2)+"}")
-
+            print("REC Points len:")
+            print(len(loc_list))
+            print("REC Points:")
+            print(loc_list)
 
 
-            for x1_iterator in range(x1,x2+1,1):
-                loc_list.append("{"+str(x1_iterator)+";"+str(y1)+"}")
 
-            for x2_iterator in range(x1+1,x2,1):
-                # Not required to traverse till x2+1 as already y2 iterator takes care of this
-                loc_list.append("{"+str(x2_iterator)+";"+str(y2) + "}")
-
-            for y1_iterator in range(y1+1,y2+1,1):
-                loc_list.append("{"+str(x1)+";"+str(y1_iterator)+"}")
-
-            for y2_iterator in range(y1+1,y2+1,1):
-                loc_list.append("{"+str(x2) +";" + str(y2_iterator)+"}")
-
-            #print (loc_list)
-
+            # for x1_iterator in range(x1,x2+1,1):
+            #     loc_list.append("{"+str(x1_iterator)+";"+str(y1)+"}")
+            #
+            # for x2_iterator in range(x1+1,x2,1):
+            #     # Not required to traverse till x2+1 as already y2 iterator takes care of this
+            #     loc_list.append("{"+str(x2_iterator)+";"+str(y2) + "}")
+            #
+            # for y1_iterator in range(y1+1,y2+1,1):
+            #     loc_list.append("{"+str(x1)+";"+str(y1_iterator)+"}")
+            #
+            # for y2_iterator in range(y1+1,y2+1,1):
+            #     loc_list.append("{"+str(x2) +";" + str(y2_iterator)+"}")
 
 
             #row_data1 = df.loc[['{0;0}','{0;1}'],:]
